@@ -12,7 +12,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center py-20">
         <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          <div className="w-full max-w-[620px] aspect-square rounded-[30px] bg-[#eeeeff] flex items-center justify-center">
+          <div className="w-full max-w-'620px' aspect-square rounded-[30px] bg-[#eeeeff] flex items-center justify-center">
             <img
               src="monetize1.png"
               alt="image"
@@ -20,7 +20,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="max-w-[560px]">
+          <div className="max-w-'560px'">
             <p className="text-[#5738ff] font-bold text-xl mb-3">
               For Creators
             </p>
@@ -56,7 +56,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center py-20">
         <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          <div className="max-w-[560px] lg:order-1">
+          <div className="max-w-'560px' lg:order-1">
             <p className="text-[#d65cff] font-bold text-xl mb-3">
               For Fans
             </p>
@@ -85,7 +85,7 @@ export default function Home() {
             </button>
           </div>
 
-          <div className="w-full max-w-[620px] aspect-square rounded-[30px] bg-[#fff0ff] flex items-center justify-center lg:order-2">
+          <div className="w-full max-w-'620px' aspect-square rounded-[30px] bg-[#fff0ff] flex items-center justify-center lg:order-2">
             <img
               src="monetize2.png"
               alt="image"
@@ -101,7 +101,7 @@ export default function Home() {
       <section className="min-h-screen flex items-center py-20">
         <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-          <div className="w-full max-w-[620px] aspect-square rounded-[30px] overflow-hidden">
+          <div className="w-full max-w-'620px' aspect-square rounded-[30px] overflow-hidden">
             <img
               src="monetize3.png"
               alt="image"
@@ -109,7 +109,7 @@ export default function Home() {
             />
           </div>
 
-          <div className="max-w-[560px]">
+          <div className="max-w-'560px'">
             <p className="text-[#d65cff] font-bold text-xl mb-3">
               For Everyone
             </p>
