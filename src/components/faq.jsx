@@ -1,0 +1,90 @@
+import { useState } from "react";
+
+const faqs = [
+  {
+    question: "Does Jiber hold my funds?",
+    answer: "No, Jiber is fully non-custodial.",
+  },
+  {
+    question: "Is there a free trial available?",
+    answer: "Yes, Jiber offers a free trial for new users.",
+  },
+  {
+    question: "Can I change my plan later?",
+    answer: "Yes, you can change your plan at any time.",
+  },
+  {
+    question: "What is your cancellation policy?",
+    answer: "You can cancel your plan whenever you want.",
+  },
+  {
+    question: "Can other info be added to an invoice?",
+    answer: "Yes, additional information can be added to invoices.",
+  },
+  {
+    question: "How does billing work?",
+    answer: "Billing is handled automatically according to your selected plan.",
+  },
+  {
+    question: "How do I change my account email?",
+    answer: "You can change your email from your account settings.",
+  },
+];
+
+export default function FAQ() {
+  const [openIndex, setOpenIndex] = useState(0);
+
+  const handleFAQ = (index) => {
+    setOpenIndex(openIndex === index ? -1 : index);
+  };
+
+  return (
+    <section className="w-full bg-white py-16 px-5">
+      <div className="max-w-3xl mx-auto">
+
+
+        <h2 className="text-center text-4xl font-bold text-slate-900 mb-10">
+          Frequently Asked{" "}
+          <span className="text-violet-600 bg-violet-50 px-1 rounded-md">
+            Questions
+          </span>
+        </h2>
+
+
+        <div>
+          {faqs.map((faq, index) => (
+            <div
+              key={index}
+              className="border-b border-gray-200"
+            >
+              <button
+                onClick={() => handleFAQ(index)}
+                className="w-full flex items-center justify-between py-6 text-left"
+              >
+                <span className="text-lg font-medium text-slate-900">
+                  {faq.question}
+                </span>
+
+                <span
+                  className={`flex items-center justify-center w-6 h-6 rounded-full border-2 ${openIndex === index
+                      ? "border-indigo-500 text-indigo-500"
+                      : "border-slate-500 text-slate-500"
+                    }`}
+                >
+                  {openIndex === index ? "−" : "+"}
+                </span>
+              </button>
+
+              {openIndex === index && (
+                <p className="pb-6 text-lg text-slate-500">
+                  {faq.answer}
+                </p>
+              )}
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+}
