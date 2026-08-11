@@ -1,3 +1,9 @@
+import monetize1 from '../../public/images/monetize1.png';
+import monetize2 from '../../public/images/monetize2.png';
+import monetize3 from '../../public/images/monetize3.png';
+
+
+
 export default function Home() {
   return (
     <main className="bg-black text-white">
@@ -8,8 +14,8 @@ export default function Home() {
 
           <div className="w-full max-w-[620px] aspect-square rounded-[30px] bg-[#eeeeff] flex items-center justify-center">
             <img
-              src="/images/creator.png"
-              alt="Creator"
+              src="monetize1.png"
+              alt="image"
               className="w-full h-full object-contain rounded-[30px]"
             />
           </div>
@@ -81,8 +87,8 @@ export default function Home() {
 
           <div className="w-full max-w-[620px] aspect-square rounded-[30px] bg-[#fff0ff] flex items-center justify-center lg:order-2">
             <img
-              src="/images/fan.png"
-              alt="Fan"
+              src="monetize2.png"
+              alt="image"
               className="w-full h-full object-contain rounded-[30px]"
             />
           </div>
@@ -97,8 +103,8 @@ export default function Home() {
 
           <div className="w-full max-w-[620px] aspect-square rounded-[30px] overflow-hidden">
             <img
-              src="/images/everyone.png"
-              alt="Jiber for everyone"
+              src="monetize3.png"
+              alt="image"
               className="w-full h-full object-cover"
             />
           </div>
