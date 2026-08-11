@@ -287,6 +287,10 @@ export default function Page() {
           </div>
         </section>
 
+
+
+        
+
         <section className="mb-16">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-black text-slate-900 md:text-4xl">
@@ -314,6 +318,9 @@ export default function Page() {
           </div>
         </section>
 
+
+
+
         <section className="mb-16 rounded-[28px] bg-[#0b0718] px-4 py-12 text-center text-white shadow-lg md:px-8">
           <div className="mx-auto max-w-xl">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-pink-500 text-2xl">
@@ -326,6 +333,10 @@ export default function Page() {
             </button>
           </div>
         </section>
+
+
+    
+
 
         <footer className="border-t border-slate-200 py-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
