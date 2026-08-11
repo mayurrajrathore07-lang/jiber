@@ -1,7 +1,8 @@
 import React from "react";
 
-export default footer page({
-
+export default function footer()
+  {
+return(
    <footer className="border-t border-slate-200 py-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-2">
@@ -21,5 +22,5 @@ export default footer page({
             <div className="text-sm text-slate-500">contact@jiber.app</div>
           </div>
         </footer>
-
-})
+);
+  }
