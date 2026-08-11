@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 export default function Page() {
   return (
-    <main className="bg-[#0a0a0d] text-white">
+    <main className="bg-[#f7f7f8] text-black">
       <Navbar />
       <Home />
       <Action />
