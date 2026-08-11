@@ -7,7 +7,7 @@ export default function get(){
 
  <section className="mb-16 grid items-center gap-8 rounded-[28px] bg-white p-6 shadow-sm md:grid-cols-2 md:p-10">
           
-          <div className="w-[314px] h-[369px] border-[4px] rounded-t-[51px] opacity-100">
+          <div className="w-'314px' h-'369px' border-'4px' rounded-t-[51px] opacity-100">
 <img src="iphone" alt="iphone"/></div>
 
           <div>

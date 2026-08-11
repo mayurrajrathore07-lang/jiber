@@ -1,11 +1,11 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black px-4 py-10 text-[#07172b]">
-      <div className="mx-auto max-w-[530px]">
+      <div className="mx-auto max-w-'530px'">
         
         
         <h1 className="text-5xl font-bold leading-[1.05] tracking-tight">
-          <span className="bg-gradient-to-r from-[#d875f5] to-[#4b3cff] bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-[#d875f5] to-[#4b3cff] bg-clip-text text-transparent">
             Chat + Send Money
           </span>
 
@@ -27,7 +27,7 @@ export default function Home() {
           <li>
             • Send USDC worldwide with a $1 flat fee — built on
             <br />
-            &nbsp;&nbsp;Solana, non-custodial & instant.
+                   Solana, non-custodial & instant.
           </li>
 
           <li>
@@ -52,7 +52,7 @@ export default function Home() {
               <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black text-xs text-white">
                 !
               </span>
-              We don’t spam
+              We don't spam
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
 
     
-          <button className="mt-4 w-full rounded-full bg-gradient-to-r from-[#df7af5] to-[#4035ff] py-4 text-lg font-semibold text-white transition hover:opacity-90">
+          <button className="mt-4 w-full rounded-full bg-linear-to-r from-[#df7af5] to-[#4035ff] py-4 text-lg font-semibold text-white transition hover:opacity-90">
             Join Waitlist
           </button>
 
