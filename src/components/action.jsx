@@ -1,87 +1,37 @@
-import { useState } from 'react';
-import action1 from '../../public/images/action1.png';
-import action2 from '../../public/images/action2.png';
-import action3 from '../../public/images/action3.png';
-import action4 from '../../public/images/action4.png';
+import action1 from "../../public/images/action1.png";
+import action2 from "../../public/images/action2.png";
+import action3 from "../../public/images/action3.png";
+import action4 from "../../public/images/action4.png";
 
-export default function Home() {
+const features = [
+  { image: action1, title: "Settle Up\nwith Friends" },
+  { image: action2, title: "Support Your Favorite\nCreators" },
+  { image: action3, title: "Unlock New Revenue\nStreams" },
+  { image: action4, title: "Spend Your Earnings\nAnywhere" },
+];
+
+export default function Action() {
   return (
-    <main className="min-h-screen bg-white px-6 py-24">
-      
-    <div className="text-center">
-    
-    <h1 className="text-4xl font-bold text-[#071b36]"> Jiber in <span className="ml-2 inline-block h-12 w-36 rounded-lg bg-purple-500 align-middle">Action</span> </h1>
-        <h2 className="mt-2 text-4xl font-bold text-[#071b36]"> Simple. Fast. Powerful </h2>
+    <section className="bg-white px-6 py-20 text-[#071b36]">
+      <div className="mx-auto max-w-6xl text-center">
+        <h1 className="text-4xl font-bold md:text-5xl">
+          Jiber in <span className="inline-block rounded-xl bg-violet-500 px-4 py-2 align-middle text-white">Action</span>
+        </h1>
+        <h2 className="mt-3 text-4xl font-bold md:text-5xl">Simple. Fast. Powerful</h2>
       </div>
 
-      <div className="mx-auto mt-12 grid max-w-6xl grid-cols-4 gap-16">
-
-       
-       
-        <div className="text">
-          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
-            
-            <img
-              src={action1}
-              alt="action1"
-              className="h-'100px w-'100px] object-contain"
-            />
+      <div className="mx-auto mt-12 grid max-w-6xl grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-4">
+        {features.map((feature) => (
+          <div key={feature.title} className="text-center">
+            <div className="mx-auto flex h-[122px] w-[122px] items-center justify-center rounded-[24px] bg-[#f3f1ff]">
+              <img src={feature.image.src} alt={feature.title} className="h-[100px] w-[100px] object-contain" />
+            </div>
+            <h3 className="mt-6 whitespace-pre-line text-xl font-semibold leading-7 text-[#071b36]">
+              {feature.title}
+            </h3>
           </div>
-
-          <h3 className="mt-6 text-xl font-semibold leading-7 text-[#071b36]">
-            Settle Up <br /> with Friends
-          </h3>  
-        </div>
-
-
-
-        <div className="text">
-          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px'] bg-[#f3f1ff]">
-            <img
-              src={action2}
-              alt="Support your favorite creators"
-              className="h-'100px' w-'100px' object-contain"
-            />
-          </div>
-
-          <h3 className="mt-6 text-xl font-semibold leading-7 text-[#071b36]">
-            Support Your Favorite <br /> Creators
-          </h3>
-        </div>
-
-
-
-        <div className="text">
-          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
-            <img
-              src={action3}
-              alt="Unlock new revenue streams"
-              className="h-'100px' w-'100px' object-contain"
-            />
-          </div>
-
-          <h3 className="mt-6 text-xl font-semibold leading-7 text-[#071b36]">
-            Unlock New Revenue <br /> Streams
-          </h3>
-        </div>
-
-
-
-        <div className="text">
-          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
-            <img
-              src={action4}
-              alt="Spend your earnings anywhere"
-              className="h-'100px' w-'100px' object-contain"
-            />
-          </div>
-
-          <h3 className="mt-6 text-xl font-semibold leading-7 text-[#071b36]">
-            Spend Your Earnings <br />Anywhere
-          </h3>
-        </div>
-
+        ))}
       </div>
-    </main>
+    </section>
   );
 }

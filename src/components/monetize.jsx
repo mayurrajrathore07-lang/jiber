@@ -1,146 +1,77 @@
-import monetize1 from '../../public/images/monetize1.png';
-import monetize2 from '../../public/images/monetize2.png';
-import monetize3 from '../../public/images/monetize3.png';
+import monetize1 from "../../public/images/monetize1.png";
+import monetize2 from "../../public/images/monetize2.png";
+import monetize3 from "../../public/images/monetize3.png";
 
+const sections = [
+  {
+    label: "For Creators",
+    title: "Monetize Your Influence.\nOn Your Terms.",
+    description:
+      "Jiber is built for you. No more 5–30% platform cuts, opaque payment structures, or frustrating fees. Just a simple, transparent way to earn from your community.",
+    points: ["Subscriptions, tips, gifts, and pay-per-view.", "Run sponsored experiences — fans fund your tips, adventures, and lifestyle.", "Keep 100% of your earnings."],
+    button: "Join Waitlist as Creator",
+    image: monetize1,
+    tone: "text-[#5738ff] border-[#5738ff] hover:bg-[#5738ff]",
+    cardClass: "bg-[#eeeeff]",
+  },
+  {
+    label: "For Fans",
+    title: "Support What\nYou Love. Instantly.",
+    description:
+      "With Jiber, you're more than just a follower — you're part of the journey. Support your favorite creators directly, unlock exclusive content, and feel connected in real time.",
+    points: ["100% of your support reaches your creator.", "Unlock content, experiences, and communities.", "Just $1 flat fee, instant transfers."],
+    button: "Join Waitlist as Fan",
+    image: monetize2,
+    tone: "text-[#d65cff] border-[#d65cff] hover:bg-[#d65cff]",
+    cardClass: "bg-[#fff0ff]",
+  },
+  {
+    label: "For Everyone",
+    title: "A Smarter Way\nto Chat + Money.",
+    description:
+      "Jiber is for anyone who wants simple, secure, borderless payments made easy. Friends, freelancers, or fans — Jiber makes money as easy as messaging.",
+    points: ["Send money globally without guesswork.", "Pay anyone, anywhere, anytime.", "Chat, pay, and join exclusive communities."],
+    button: "Join Early Access",
+    image: monetize3,
+    tone: "text-[#d65cff] border-[#d65cff] hover:bg-[#d65cff]",
+    cardClass: "bg-[#f2eeff]",
+  },
+];
 
-
-export default function Home() {
+export default function Monetize() {
   return (
     <main className="bg-black text-white">
+      {sections.map((section, index) => (
+        <section key={section.label} className="flex items-center py-20">
+          <div className="mx-auto grid w-full max-w-6xl items-center gap-14 px-5 lg:grid-cols-2">
+            {index % 2 === 0 ? (
+              <div className={`flex aspect-square w-full max-w-[620px] items-center justify-center rounded-[30px] ${section.cardClass}`}>
+                <img src={section.image.src} alt={section.label} className="h-full w-full rounded-[30px] object-contain" />
+              </div>
+            ) : null}
 
-    
-      <section className="min-h-screen flex items-center py-20">
-        <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div className="max-w-[560px]">
+              <p className={`mb-3 text-xl font-bold ${section.tone.split(" ")[0]}`}>{section.label}</p>
+              <h2 className="mb-5 text-4xl font-bold leading-tight md:text-5xl">{section.title.split("\n").map((line) => <span key={line} className="block">{line}</span>)}</h2>
+              <p className="mb-7 text-lg leading-relaxed text-gray-400">{section.description}</p>
+              <ul className="mb-8 space-y-4 text-gray-300">
+                {section.points.map((point) => (
+                  <li key={point}>✦ {point}</li>
+                ))}
+              </ul>
+              <button className={`rounded-full border-2 px-7 py-3 font-bold transition ${section.tone}`}>
+                {section.button}
+              </button>
+            </div>
 
-          <div className="w-full max-w-'620px' aspect-square rounded-[30px] bg-[#eeeeff] flex items-center justify-center">
-            <img
-              src="monetize1.png"
-              alt="image"
-              className="w-full h-full object-contain rounded-[30px]"
-            />
+            {index % 2 !== 0 ? (
+              <div className={`flex aspect-square w-full max-w-[620px] items-center justify-center rounded-[30px] ${section.cardClass}`}>
+                <img src={section.image.src} alt={section.label} className="h-full w-full rounded-[30px] object-contain" />
+              </div>
+            ) : null}
           </div>
-
-          <div className="max-w-'560px'">
-            <p className="text-[#5738ff] font-bold text-xl mb-3">
-              For Creators
-            </p>
-
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-5">
-              Monetize Your Influence.
-              <br />
-              On Your Terms.
-            </h2>
-
-            <p className="text-gray-400 text-lg leading-relaxed mb-7">
-              Jiber is built for you. No more 5–30% platform cuts,
-              opaque payment structures, or frustrating fees. Just a
-              simple, transparent way to earn from your community.
-            </p>
-
-            <ul className="space-y-4 text-gray-300 mb-8">
-              <li>✦ Subscriptions, tips, gifts, and pay-per-view.</li>
-              <li>✦ Run sponsored experiences — fans fund your tips, adventures, and lifestyle.</li>
-              <li>✦ Keep 100% of your earnings.</li>
-            </ul>
-
-            <button className="border-2 border-[#5738ff] rounded-full px-7 py-3 text-[#5738ff] font-bold hover:bg-[#5738ff] hover:text-white transition">
-              Join Waitlist as Creator
-            </button>
-          </div>
-
-        </div>
-      </section>
-
-
-      
-      <section className="min-h-screen flex items-center py-20">
-        <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
-          <div className="max-w-'560px' lg:order-1">
-            <p className="text-[#d65cff] font-bold text-xl mb-3">
-              For Fans
-            </p>
-
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-5">
-              Support What
-              <br />
-              You Love. Instantly.
-            </h2>
-
-            <p className="text-gray-400 text-lg leading-relaxed mb-7">
-              With Jiber, you're more than just a follower — you're
-              part of the journey. Support your favorite creators
-              directly, unlock exclusive content, and feel connected
-              in real time.
-            </p>
-
-            <ul className="space-y-4 text-gray-300 mb-8">
-              <li>✦ 100% of your support reaches your creator.</li>
-              <li>✦ Unlock content, experiences, and communities.</li>
-              <li>✦ Just $1 flat fee, instant transfers.</li>
-            </ul>
-
-            <button className="border-2 border-[#d65cff] rounded-full px-7 py-3 text-[#d65cff] font-bold hover:bg-[#d65cff] hover:text-white transition">
-              Join Waitlist as Fan
-            </button>
-          </div>
-
-          <div className="w-full max-w-'620px' aspect-square rounded-[30px] bg-[#fff0ff] flex items-center justify-center lg:order-2">
-            <img
-              src="monetize2.png"
-              alt="image"
-              className="w-full h-full object-contain rounded-[30px]"
-            />
-          </div>
-
-        </div>
-      </section>
-
-
-      
-      <section className="min-h-screen flex items-center py-20">
-        <div className="container mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-
-          <div className="w-full max-w-'620px' aspect-square rounded-[30px] overflow-hidden">
-            <img
-              src="monetize3.png"
-              alt="image"
-              className="w-full h-full object-cover"
-            />
-          </div>
-
-          <div className="max-w-'560px'">
-            <p className="text-[#d65cff] font-bold text-xl mb-3">
-              For Everyone
-            </p>
-
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-5">
-              A Smarter Way
-              <br />
-              to Chat + Money.
-            </h2>
-
-            <p className="text-gray-400 text-lg leading-relaxed mb-7">
-              Jiber is for anyone who wants simple, secure,
-              borderless payments made easyday conversations.
-              Friends, freelancers, or fans — Jiber makes money
-              as easy as messaging.
-            </p>
-
-            <ul className="space-y-4 text-gray-300 mb-8">
-              <li>✦ Send money globally without guesswork.</li>
-              <li>✦ Pay anyone, anywhere, anytime.</li>
-              <li>✦ Chat, pay, and join exclusive communities.</li>
-            </ul>
-
-            <button className="border-2 border-[#d65cff] rounded-full px-7 py-3 text-[#d65cff] font-bold hover:bg-[#d65cff] hover:text-white transition">
-              Join Early Access
-            </button>
-          </div>
-
-        </div>
-      </section>
-
+        </section>
+      ))}
     </main>
   );
 }
