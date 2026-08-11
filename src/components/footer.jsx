@@ -6,7 +6,7 @@ return(
    <footer className="border-t border-slate-200 py-8">
           <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-gradient-to-br from-violet-500 to-pink-500 text-sm font-bold text-white">
+              <div className="flex h-8 w-8 items-center justify-center rounded-md bg-linear-to-br from-violet-500 to-pink-500 text-sm font-bold text-white">
                 j
               </div>
               <span className="text-xl font-bold text-slate-900">Jiber</span>
