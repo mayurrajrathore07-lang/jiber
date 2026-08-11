@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <section className="bg-black px-4 py-12 text-white md:px-8">
+    <section className="bg-white px-4 py-12 text-black md:px-8">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
 
         
