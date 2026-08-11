@@ -19,12 +19,12 @@ export default function Home() {
        
        
         <div className="text">
-          <div className="mx-auto flex h-[122px] w-[122px] items-center justify-center rounded-[24px] bg-[#f3f1ff]">
+          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
             
             <img
               src={action1}
               alt="action1"
-              className="h-[100px] w-[100px] object-contain"
+              className="h-'100px w-'100px] object-contain"
             />
           </div>
 
@@ -36,11 +36,11 @@ export default function Home() {
 
 
         <div className="text">
-          <div className="mx-auto flex h-[122px] w-[122px] items-center justify-center rounded-[24px] bg-[#f3f1ff]">
+          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px'] bg-[#f3f1ff]">
             <img
               src={action2}
               alt="Support your favorite creators"
-              className="h-[100px] w-[100px] object-contain"
+              className="h-'100px' w-'100px' object-contain"
             />
           </div>
 
@@ -52,11 +52,11 @@ export default function Home() {
 
 
         <div className="text">
-          <div className="mx-auto flex h-[122px] w-[122px] items-center justify-center rounded-[24px] bg-[#f3f1ff]">
+          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
             <img
               src={action3}
               alt="Unlock new revenue streams"
-              className="h-[100px] w-[100px] object-contain"
+              className="h-'100px' w-'100px' object-contain"
             />
           </div>
 
@@ -68,11 +68,11 @@ export default function Home() {
 
 
         <div className="text">
-          <div className="mx-auto flex h-[122px] w-[122px] items-center justify-center rounded-[24px] bg-[#f3f1ff]">
+          <div className="mx-auto flex h-'122px' w-'122px' items-center justify-center rounded-'24px' bg-[#f3f1ff]">
             <img
               src={action4}
               alt="Spend your earnings anywhere"
-              className="h-[100px] w-[100px] object-contain"
+              className="h-'100px' w-'100px' object-contain"
             />
           </div>
 
