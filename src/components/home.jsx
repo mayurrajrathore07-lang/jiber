@@ -1,6 +1,5 @@
 import home from "../../public/images/home.png";
 
-
 export default function Home() {
   return (
     <section className="bg-white px-4 py-12 text-black md:px-8">
@@ -134,7 +133,9 @@ export default function Home() {
 
       </div>
 
-       <div className="h-120 w-120"><img src="home" alt="picture"/></div>
+       <div className="h-120 w-120">
+        <img src={home} alt="Home preview" />
+      </div>
     </section>
   );
 }
