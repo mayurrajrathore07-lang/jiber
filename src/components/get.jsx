@@ -10,7 +10,7 @@ export default function GetAccess() {
           <img
             src={iphone.src}
             alt="Jiber app preview"
-            className="h-'500px' w-'350px' rounded-[30px] object-cover"
+            className="h-'600px' w-'350px' rounded-[15px] object-cover"
           />
         </div>
 
@@ -21,19 +21,16 @@ export default function GetAccess() {
           </p>
 
           <h2 className="mt-5 text-4xl font-black leading-tight sm:text-5xl">
-            <span className="text-[#b9d4f2]">Get Early </span>
-            <span className="rounded-xl bg-[#dff7ef] px-2 text-[#101828]">
-              Access
-            </span>
+            <span className="text-[#030303]">Get Early Access</span>
             <br />
-            <span className="text-[#d9e8ff]">& Influence</span>
+            <span className="text-[#030303]">& Influence</span>
           </h2>
 
-          <p className="mt-6 max-w-xl text-lg leading-7 text-slate-300">
-            Join us in shaping the future of content monetization! As a beta
-            tester, you&apos;ll gain early access to our platform and features.
-            Your feedback is crucial in crafting a top-notch tool for creators
-            like you.
+          <p className=" text-black mt-6 max-w-xl text-lg leading-7 text-black-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Sequi totam impedit repudiandae voluptate odit non, in fugit
+              ipsa dignissimos maxime provident tenetur unde consectetur 
+               ducimus dolorem rerum aspernatur cumque!
           </p>
 
           <button className="mt-6 rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 px-7 py-3 font-bold text-white">
