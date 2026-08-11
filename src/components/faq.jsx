@@ -8,27 +8,27 @@ const faqs = [
     answer: "i don't know.",
   },
   {
-    question: "Is there a free trial available?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
   {
-    question: "Can I change my plan later?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
   {
-    question: "What is your cancellation policy?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
   {
-    question: "Can other info be added to an invoice?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
   {
-    question: "How does billing work?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
   {
-    question: "How do I change my account email?",
+    question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
 ];

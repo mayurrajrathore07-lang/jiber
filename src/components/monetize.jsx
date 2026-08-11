@@ -40,7 +40,7 @@ const sections = [
 
 export default function Monetize() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-white text-black">
       {sections.map((section, index) => (
         <section key={section.label} className="flex items-center py-20">
           <div className="mx-auto grid w-full max-w-6xl items-center gap-14 px-5 lg:grid-cols-2">
