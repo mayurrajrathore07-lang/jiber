@@ -4,6 +4,7 @@ import Action from "@/components/action";
 import Monetize from "@/components/monetize";
 import GetAccess from "@/components/get";
 import FAQ from "@/components/faq";
+import Box from "@/components/faq";
 import Footer from "@/components/footer";
 
 export default function Page() {
@@ -15,6 +16,7 @@ export default function Page() {
       <Monetize />
       <GetAccess />
       <FAQ />
+      <Box/>
       <Footer />
     </main>
   );
