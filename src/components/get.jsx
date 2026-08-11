@@ -33,7 +33,7 @@ export default function GetAccess() {
                ducimus dolorem rerum aspernatur cumque!
           </p>
 
-          <button className="mt-6 rounded-full bg-gradient-to-r from-violet-500 to-indigo-500 px-7 py-3 font-bold text-white">
+          <button className="mt-6 rounded-full bg-linear-to-r from-violet-500 to-indigo-500 px-7 py-3 font-bold text-white">
             Join Early Access
           </button>
         </div>
