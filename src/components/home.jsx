@@ -1,8 +1,6 @@
-import home from "../../public/images/home.png";
-
 export default function Home() {
   return (
-    <section className="bg-white px-4 py-12 text-black md:px-8">
+    <section className="bg-white px-4 py-12 text-black md:px-8 flex">
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
 
         
@@ -134,7 +132,7 @@ export default function Home() {
       </div>
 
        <div className="h-120 w-120">
-        <img src={home} alt="Home preview" />
+        <img src="/images/home.png" alt="Home preview" className="h-auto w-full" />
       </div>
     </section>
   );
