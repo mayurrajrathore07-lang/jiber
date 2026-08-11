@@ -100,6 +100,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div><img src="" alt="" /></div>
     </main>
   );
 }
