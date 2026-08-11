@@ -20,5 +20,5 @@ export default function get(){
             </button>
           </div>
         </section>
- )
-};
+ );
+}
