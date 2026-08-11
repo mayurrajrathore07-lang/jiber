@@ -1,3 +1,5 @@
+import home from "../../public/images/home.png";
+
 
 export default function Home() {
   return (
@@ -20,7 +22,7 @@ export default function Home() {
             </span>
           </h1>
 
-          <ul className="mt-8 space-y-4 text-lg text-gray-300">
+          <ul className="mt-8 space-y-4 text-lg text-black-300">
             <li>
               • Send USDC worldwide with a $1 flat fee — built on Solana,
               non-custodial & instant.
@@ -131,6 +133,8 @@ export default function Home() {
         </div>
 
       </div>
+
+       <div><img src="home" alt="picture"/></div>
     </section>
   );
 }
