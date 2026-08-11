@@ -5,31 +5,31 @@ import { useState } from "react";
 const faqs = [
   {
     question: "Does Jiber hold my funds?",
-    answer: "No, Jiber is fully non-custodial.",
+    answer: "i don't know.",
   },
   {
     question: "Is there a free trial available?",
-    answer: "Yes, Jiber offers a free trial for new users.",
+    answer: "i don't know.",
   },
   {
     question: "Can I change my plan later?",
-    answer: "Yes, you can change your plan at any time.",
+    answer: "i don't know.",
   },
   {
     question: "What is your cancellation policy?",
-    answer: "You can cancel your plan whenever you want.",
+    answer: "i don't know.",
   },
   {
     question: "Can other info be added to an invoice?",
-    answer: "Yes, additional information can be added to invoices.",
+    answer: "i don't know.",
   },
   {
     question: "How does billing work?",
-    answer: "Billing is handled automatically according to your selected plan.",
+    answer: "i don't know.",
   },
   {
     question: "How do I change my account email?",
-    answer: "You can change your email from your account settings.",
+    answer: "i don't know.",
   },
 ];
 
