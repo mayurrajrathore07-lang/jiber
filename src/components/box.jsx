@@ -1,4 +1,8 @@
-   <section className="mb-16 rounded-[28px] bg-[#0b0718] px-4 py-12 text-center text-white shadow-lg md:px-8">
+  import { useState } from "react"
+
+  export default function box(){
+    return(
+        <section className="mb-16 rounded-[28px] bg-[#0b0718] px-4 py-12 text-center text-white shadow-lg md:px-8">
           <div className="mx-auto max-w-xl">
             <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-violet-500 to-pink-500 text-2xl">
               ✨
@@ -10,3 +14,6 @@
             </button>
           </div>
         </section>
+    );
+  }
+  
