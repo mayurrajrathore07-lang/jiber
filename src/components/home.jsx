@@ -65,7 +65,7 @@ export default function Home() {
               />
             </div>
 
-            <button className="mt-5 w-full rounded-full bg-gradient-to-r from-purple-400 to-blue-600 py-4 text-lg font-semibold text-white hover:opacity-90">
+            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-4 text-lg font-semibold text-white hover:opacity-90">
               Join Waitlist
             </button>
 
@@ -93,7 +93,7 @@ export default function Home() {
 
     
         <div className="flex justify-center">
-          <div className="relative h-'540px' w-full max-w-lg overflow-hidden rounded-3xl bg-gradient-to-br from-purple-950 via-gray-900 to-black shadow-2xl">
+          <div className="relative h-'540px' w-full max-w-lg overflow-hidden rounded-3xl bg-linear-to-br from-purple-950 via-gray-900 to-black shadow-2xl">
 
             <div className="absolute left-6 right-6 top-6 h-20 rounded-2xl bg-white/5" />
 
@@ -101,7 +101,7 @@ export default function Home() {
               $
             </div>
 
-            <div className="absolute right-10 top-32 flex h-28 w-28 items-center justify-center rounded-3xl bg-gradient-to-br from-purple-500 to-blue-500 text-5xl font-bold">
+            <div className="absolute right-10 top-32 flex h-28 w-28 items-center justify-center rounded-3xl bg-linear-to-br from-purple-500 to-blue-500 text-5xl font-bold">
               J
             </div>
 
@@ -134,7 +134,7 @@ export default function Home() {
 
       </div>
 
-       <div><img src="home" alt="picture"/></div>
+       <div className="h-120 w-120"><img src="home" alt="picture"/></div>
     </section>
   );
 }
