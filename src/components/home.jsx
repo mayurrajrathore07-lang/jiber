@@ -1,25 +1,25 @@
 export default function Home() {
   return (
     <section className="bg-white px-4 py-15 text-black md:px-8 flex">
-      <div className="mx-auto grid max-w-8xl items-center gap-4 lg:grid-cols-2 ">
+      <div className="mx-auto grid max-w-8x1 items-center gap-4 lg:grid-cols-2 ">
 
 
-        <div className="max-w-xl">
-          <h1 className="text-7xl font-bold leading-tight md:text-5xl">
-            <span className="bg-linear-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">
+        <div className="max-w-8xl">
+          <h1 className="text-5xl font-bold leading-tight">
+            <span className="whitespace-nowrap bg-linear-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">
               Chat + Send Money
             </span>
 
-            <span className="mt-2 block">
+            <span className="mt-2 block whitespace-nowrap">
               Worldwide for $1. Keep
             </span>
 
-            <span className="block">
+            <span className="block whitespace-nowrap">
               100% of What You Earn.
             </span>
           </h1>
 
-          <ul className="mt-6 space-y-2 text-lg text-black-300">
+          <ul className="mt-6 space-y-2 text-lg text-black-300 whitespace-nowrap">
             <li>
               • Send USDC worldwide with a $1 flat fee — built on Solana.
             </li>
