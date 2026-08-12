@@ -2,15 +2,6 @@ import hero1 from "../../public/images/hero1.png";
 import hero2 from "../../public/images/hero2.png";
 import hero3 from "../../public/images/hero3.png";
 
-const Card = ({ image, title, text, className = "" }) => (
-
-  <div className={`rounded-3xl p-8 ${className}`}>
-    <img src={image.src} alt={title} className="mb-6 w-full rounded-2xl" />
-    <h2 className="mb-3 text-2xl font-semibold">{title}</h2>
-    <p className="text-sm leading-7 text-gray-600">{text}</p>
-  </div>
-);
-
 export default function Hero() {
   return (
     <section className="bg-white px-4 py-12 text-black">
@@ -38,19 +29,21 @@ export default function Hero() {
 
 
         <div className="grid gap-6">
-          <Card
-            image={hero2.src}
-            title="Borderless, Instant, & Just $1"
-            text="Send money globally in an instant for a flat $1 fee. No more hidden charges or confusing exchange rates."
-            className="bg-white text-black"
-          />
+          <div className="rounded-3xl bg-white p-8 shadow-lg">
+            <img src={hero2.src} alt="Borderless payment" className="mb-6 w-full rounded-2xl" />
+            <h3 className="mb-3 text-2xl font-semibold">Borderless, Instant, & Just $1</h3>
+            <p className="text-sm leading-7 text-gray-600">
+              Send money globally in an instant for a flat $1 fee. No more hidden charges or confusing exchange rates.
+            </p>
+          </div>
 
-          <Card
-            image={hero3.src}
-            title="You Keep 100% of Your Earnings"
-            text="Creators, reclaim your earnings. Jiber never takes a cut, so you keep more from your community."
-            className="bg-[#E9F8EF] text-black"
-          />
+          <div className="rounded-3xl bg-[#E9F8EF] p-8 shadow-lg">
+            <img src={hero3.src} alt="Keep earnings" className="mb-6 w-full rounded-2xl" />
+            <h3 className="mb-3 text-2xl font-semibold">You Keep 100% of Your Earnings</h3>
+            <p className="text-sm leading-7 text-gray-600">
+              Creators, reclaim your earnings. Jiber never takes a cut, so you keep more from your community.
+            </p>
+          </div>
         </div>
 
       </div>
