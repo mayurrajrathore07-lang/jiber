@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="mx-auto grid max-w-7xl gap-6 lg:grid-cols-2">
 
 
-        <div className="rounded-3xl bg-[#1E1EFB] p-8">
+        <div className="rounded-3xl bg-white p-8">
           <img
             src={hero1}
             alt="Private channel"
