@@ -1,3 +1,5 @@
+import { FaInstagram, FaGoogle, FaGithub, FaLinkedin } from 'react-icons/fa'
+
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white py-8 text-slate-900">
@@ -7,6 +9,13 @@ export default function Footer() {
             j
           </div>
           <span className="text-xl font-bold">Jiber</span>
+        </div>
+
+        <div className='flex gap-4 text-lg text-black-300 text-black'>
+          <a href="https://www.instagram.com/?hl=en"><FaInstagram className='hover:text-pink-500 transition-all' size={25} /></a>
+          <a href="https://www.instagram.com/?hl=en"><FaGoogle className='hover:text-pink-500 transition-all' size={25} /></a>
+          <a href="https://www.instagram.com/?hl=en"><FaGithub className='hover:text-pink-500 transition-all' size={25} /></a>
+          <a href="https://www.instagram.com/?hl=en"><FaLinkedin className='hover:text-pink-500 transition-all' size={25} /></a>
         </div>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
