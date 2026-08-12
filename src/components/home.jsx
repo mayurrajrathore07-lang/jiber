@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <section className="bg-white px-4 py-15 text-black md:px-8 flex">
-      <div className="mx-auto grid max-w-8x1 items-center gap-4 lg:grid-cols-2 ">
+      <div className="mx-auto grid max-w-8x1 items-center gap-2 lg:grid-cols-2 ">
 
 
         <div className="max-w-8xl">
@@ -35,19 +35,17 @@ export default function Home() {
           </ul>
 
 
-          <div className="mt-8 rounded-3xl bg-white p-7 text-gray-900 shadow-xl">
+          <div className="mt-2 rounded-3xl bg-white p-7 text-gray-900 shadow-xl">
 
             <div className="flex items-center justify-between">
               <h2 className="text-2xl font-semibold">
                 Join the waitlist
               </h2>
 
-              <span className="text-sm">
-                ! We don't spam
-              </span>
+
             </div>
 
-            <div className="mt-5 space-y-3">
+            <div className="mt-5 space-y-2">
               <input
                 type="text"
                 placeholder="Your Name"
@@ -65,31 +63,12 @@ export default function Home() {
               Join Waitlist
             </button>
 
-            <div className="mt-5 flex items-center justify-between">
-              <div className="flex">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black text-white">
-                  ≈
-                </div>
-
-                <div className="-ml-2 flex h-8 w-8 items-center justify-center rounded-full bg-blue-500 text-white">
-                  $
-                </div>
-              </div>
-
-              <div className="flex items-center gap-2 text-sm">
-                <span className="flex h-7 w-7 items-center justify-center rounded-full bg-black text-xs text-white">
-                  $1
-                </span>
-
-                <span>Fee Instant Transfer</span>
-              </div>
-            </div>
           </div>
         </div>
 
       </div>
 
-      <div className="h-200 w-200">
+      <div className="h-160 w-200 mb-30px">
         <img src="/images/home.png" alt="Home preview" className="h-auto w-full" />
       </div>
     </section>
