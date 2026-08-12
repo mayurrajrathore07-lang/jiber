@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import Home from "@/components/home";
+import Hero from "@/components/hero";
 import Action from "@/components/action";
 import Monetize from "@/components/monetize";
 import GetAccess from "@/components/get";
@@ -12,6 +13,7 @@ export default function Page() {
     <main className="bg-[#f7f7f8] text-black">
       <Navbar />
       <Home />
+      <Hero/>
       <Action />
       <Monetize />
       <GetAccess />
