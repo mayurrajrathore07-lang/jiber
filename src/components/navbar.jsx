@@ -5,7 +5,7 @@ export default function Navbar() {
     <header className="bg-[#f8f8f8]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
 
-        
+
         <div className="flex items-center gap-2">
           <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-purple-500">
             <span className="text-lg font-bold text-black">••</span>
@@ -16,7 +16,7 @@ export default function Navbar() {
           </span>
         </div>
 
-        
+
         <div className="hidden gap-8 text-black md:flex">
           {navItems.map((item) => (
             <a

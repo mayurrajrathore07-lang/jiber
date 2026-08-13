@@ -5,7 +5,7 @@ export default function GetAccess() {
     <section className="bg-white px-4 py-12 text-white">
       <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2">
 
-        
+
         <div className="flex justify-center">
           <img
             src={iphone.src}
@@ -14,7 +14,7 @@ export default function GetAccess() {
           />
         </div>
 
-  
+
         <div>
           <p className="inline-block rounded-full bg-[#dff7ef] px-3 py-1 text-xs font-semibold uppercase tracking-wider text-[#0d8d68]">
             Beta Creator
@@ -28,9 +28,9 @@ export default function GetAccess() {
 
           <p className=" text-black mt-6 max-w-xl text-lg leading-7 text-black-300">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-             Sequi totam impedit repudiandae voluptate odit non, in fugit
-              ipsa dignissimos maxime provident tenetur unde consectetur 
-               ducimus dolorem rerum aspernatur cumque!
+            Sequi totam impedit repudiandae voluptate odit non, in fugit
+            ipsa dignissimos maxime provident tenetur unde consectetur
+            ducimus dolorem rerum aspernatur cumque!
           </p>
 
           <button className="mt-6 rounded-full bg-linear-to-r from-violet-500 to-indigo-500 px-7 py-3 font-bold text-white">

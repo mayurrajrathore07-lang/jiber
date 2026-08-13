@@ -12,7 +12,7 @@ export default function TermsAndConditions() {
         <div className="bg-gradient-to-r from-violet-200 to-pink-200 py-12">
           <div className="mx-auto max-w-4xl px-6">
             <h1 className="text-4xl font-bold text-black mb-2">Terms & Conditions</h1>
-            <p className="text-slate-700">Effective Date: October 2025</p>
+            <p className="text-slate-700">Effective Date: 13/08/2026</p>
           </div>
         </div>
 
