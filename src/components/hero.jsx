@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="bg-white px-4 py-16 text-gray-900 sm:px-6 lg:px-8">
+    <section id="messaging" className="bg-white px-4 py-16 text-gray-900 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
 
 

@@ -12,7 +12,7 @@ const features = [
 
 export default function Action() {
   return (
-    <section className="bg-white px-6 py-20 text-[#071b36]">
+    <section id="money" className="bg-white px-6 py-20 text-[#071b36]">
       <div className="mx-auto max-w-6xl text-center">
         <h1 className="text-4xl font-bold md:text-5xl">
           Jiber in <span className="inline-block rounded-xl bg-violet-500 px-4 py-2 align-middle text-white">Action</span>

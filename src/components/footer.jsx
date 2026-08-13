@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-white py-8 text-slate-900">
+    <footer id="contact" className="border-t border-slate-200 bg-white py-8 text-slate-900">
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 md:flex-row md:items-center md:justify-between">
         <div className="flex items-center gap-2">
           <div className="flex h-8 w-8 items-center justify-center rounded-md bg-linear-to-br from-violet-500 to-pink-500 text-sm font-bold text-white">
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
           <Link href="/privacy-policy" className="hover:text-slate-800 transition-colors">Privacy Policy</Link>
           <Link href="/t&C" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
-          <a href="#FAQ" className="hover:text-slate-800 transition-colors">FAQ</a>
+          <Link href="/#faq" className="hover:text-slate-800 transition-colors">FAQ</Link>
         </div>
 
         <div className="text-sm text-slate-500">contact@jiber.app</div>
