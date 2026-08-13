@@ -41,7 +41,7 @@ const sections = [
     label: "For Everyone",
     title: "A Smarter Way\nto Chat + Money.",
     description:
-      "Jiber is for anyone who wants simple, secure, borderless payments made easy. Friends, freelancers, or fans — Jiber makes money as easy as messaging.",
+      "Jiber is for anyone who  simple, secure, borderless payments made easy. Friends, freelancers, or fans — Jiber makes money as easy as messaging.",
     points: [
       "Send money globally without guesswork.",
       "Pay anyone, anywhere, anytime.",
@@ -94,9 +94,9 @@ function Monetize() {
                 {section.description}
               </p>
 
-              <ul className="mb-8 space-y-4 text-gray-500">
+              <ul className="mb-8 space-y-4 text-black-500">
                 {section.points.map((point) => (
-                  <li key={point}>✦ {point}</li>
+                  <li key={point}>~ {point}</li>
                 ))}
               </ul>
 
