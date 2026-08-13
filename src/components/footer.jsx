@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
           <Link href="/privacy-policy" className="hover:text-slate-800 transition-colors">Privacy Policy</Link>
           <Link href="/t&C" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
-          <Link href="/#faq" className="hover:text-slate-800 transition-colors">FAQ</Link>
+          <a href="#FAQ" className="hover:text-slate-800 transition-colors">FAQ</a>
         </div>
 
         <div className="text-sm text-slate-500">contact@jiber.app</div>
