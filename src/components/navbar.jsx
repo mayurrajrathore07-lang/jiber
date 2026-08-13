@@ -21,7 +21,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <a
               key={item}
-              href="#"
+              href="#FAQ"
               className="transition hover:text-purple-400"
             >
               {item}
