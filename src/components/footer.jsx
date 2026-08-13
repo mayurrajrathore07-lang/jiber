@@ -20,9 +20,9 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
-          <a href="#">Privacy Policy</a>
+          <Link href="/privacy-policy" className="hover:text-slate-800 transition-colors">Privacy Policy</Link>
           <Link href="/t&C" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
-          <a href="#">FAQ</a>
+          <Link href="#faq" className="hover:text-slate-800 transition-colors">FAQ</Link>
         </div>
 
         <div className="text-sm text-slate-500">contact@jiber.app</div>
