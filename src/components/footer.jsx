@@ -19,9 +19,8 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
-          <a href="#">Messaging</a>
-          <a href="#">Payments</a>
-          <a href="#">Monetization</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
           <a href="#">FAQ</a>
         </div>
 

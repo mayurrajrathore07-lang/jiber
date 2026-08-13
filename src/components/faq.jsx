@@ -45,7 +45,7 @@ export default function FAQ() {
       <div className="max-w-3xl mx-auto">
 
 
-        <h2 className="text-center text-4xl font-bold text-slate-900 mb-10">
+        <h2 className="text-center text-4xl font-bold text-slate-900 mb-10 ">
           Frequently Asked{" "}
           <span className="text-violet-600 bg-violet-50 px-1 rounded-md">
             Questions
@@ -63,14 +63,14 @@ export default function FAQ() {
                 onClick={() => handleFAQ(index)}
                 className="w-full flex items-center justify-between py-6 text-left"
               >
-                <span className="text-lg font-medium text-slate-900">
+                <span className="text-lg font-medium text-slate-900 font-bold">
                   {faq.question}
                 </span>
 
                 <span
                   className={`flex items-center justify-center w-6 h-6 rounded-full border-2 ${openIndex === index
-                      ? "border-indigo-500 text-indigo-500"
-                      : "border-slate-500 text-slate-500"
+                    ? "border-indigo-500 text-indigo-500"
+                    : "border-slate-500 text-slate-500"
                     }`}
                 >
                   {openIndex === index ? "−" : "+"}

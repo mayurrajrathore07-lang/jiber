@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="bg-white px-4 py-15 text-black md:px-8 flex">
+    <section className="bg-white px-4 py-15 text-black md:px-8 flex ml-18 mr-10">
       <div className="mx-auto grid max-w-8x1 items-center gap-1 lg:grid-cols-2 ">
 
 
