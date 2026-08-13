@@ -41,7 +41,7 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="w-full bg-white py-16 px-5">
+    <section className="w-full bg-white py-16 px-5">
       <div className="max-w-3xl mx-auto" id="FAQ">
 
 
