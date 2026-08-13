@@ -1,4 +1,4 @@
-:HL["/jiber/_next/static/chunks/0r5jc1iaiennf.css","style"]
+:HL["/jiber/_next/static/chunks/0l-44gf0shfx5.css","style"]
 :HL["/jiber/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/jiber/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/jiber/_next/static/media/home.3i_-xqlp6y7qy.png","image"]
@@ -6,8 +6,6 @@
 :HL["/jiber/_next/static/media/action2.1fxzjo2knpzii.png","image"]
 :HL["/jiber/_next/static/media/action3.0qtodxmnqc9ak.png","image"]
 :HL["/jiber/_next/static/media/action4.1fu9n58qnvluz.png","image"]
-:HL["/jiber/_next/static/media/monetize1.048cr5_dkkl4s.png","image"]
-:HL["/jiber/_next/static/media/monetize2.263t8z2c_wbs9.png","image"]
 :HL["/jiber/_next/static/media/iphone.14jd2f65lxoae.png","image"]
 :HL["https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80","image"]
 :HL["https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80","image"]
@@ -18,5 +16,4 @@
 :HL["https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80","image"]
 :HL["https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80","image"]
 :HL["https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&auto=format&fit=crop&q=80","image"]
-:HL["/jiber/_next/static/media/monetize3.3vzd-i4m_y60y.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"VPSKwUGSwDZtEfwU0vnnQ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"AY792yzTd9RYf3E4cl-hq"}
