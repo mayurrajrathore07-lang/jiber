@@ -20,32 +20,27 @@ export default function Hero() {
         </div>
 
 
-        <div className="rounded-3xl bg-[#F2EFFE] p-6 sm:p-10">
+        {/* Card Section 1 */}
+        <div className="rounded-3xl bg-[#F2EFFE] p-4 sm:p-6 md:p-10">
           <div className="grid items-center gap-8 lg:grid-cols-2">
-
-            <div className="relative flex h-[330px] items-center justify-center">
-
-
-              <div className="absolute left-0 top-6 z-10 w-44 rounded-2xl bg-white p-3 shadow-lg sm:left-4 sm:w-48">
-
-
+            {/* Visual Box */}
+            <div className="relative flex h-[320px] sm:h-[350px] items-center justify-center overflow-hidden sm:overflow-visible">
+              {/* Channel list preview card */}
+              <div className="absolute left-0 top-4 z-10 w-40 rounded-2xl bg-white p-2.5 shadow-lg sm:left-4 sm:w-48 sm:p-3">
                 <div className="flex items-center gap-2 rounded-xl bg-[#F4F1FE] p-2">
                   <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-purple-100 text-xs text-purple-600">
                     ❖
                   </div>
-
                   <div>
                     <p className="text-xs font-bold">Alpha Squad</p>
                     <p className="text-[10px] text-gray-500">Private</p>
                   </div>
                 </div>
 
-
-                <div className="mt-2 flex items-center gap-2 p-2">
+                <div className="mt-2 flex items-center gap-2 p-1.5 sm:p-2">
                   <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-gray-100 text-xs text-gray-500">
                     ❖
                   </div>
-
                   <div>
                     <p className="text-xs font-semibold text-gray-700">
                       Cuz Crew
@@ -54,12 +49,10 @@ export default function Hero() {
                   </div>
                 </div>
 
-
-                <div className="flex items-center gap-2 p-2">
+                <div className="flex items-center gap-2 p-1.5 sm:p-2">
                   <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-gray-100 text-xs text-gray-500">
                     ❖
                   </div>
-
                   <div>
                     <p className="text-xs font-semibold text-gray-700">
                       Meme team
@@ -69,47 +62,41 @@ export default function Hero() {
                 </div>
               </div>
 
-              <div className="absolute bottom-4 right-0 z-10 w-64 rounded-3xl bg-[#E8E3FE] p-5 shadow-lg sm:right-4 sm:w-72">
-
-                <div className="flex items-center justify-between border-b border-purple-200 pb-3">
-
+              {/* Chat preview card */}
+              <div className="absolute bottom-2 right-0 z-10 w-56 rounded-3xl bg-[#E8E3FE] p-4 shadow-lg sm:bottom-4 sm:right-4 sm:w-72 sm:p-5">
+                <div className="flex items-center justify-between border-b border-purple-200 pb-2.5 sm:pb-3">
                   <div className="flex items-center gap-2">
                     <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-purple-600 text-xs text-white">
                       ❖
                     </div>
-
                     <span className="text-xs font-bold">
                       Alpha Squad
                     </span>
                   </div>
-
                   <span className="rounded-md bg-white px-2 py-1 text-[10px] text-gray-600">
                     Private
                   </span>
                 </div>
 
-                <div className="mt-4 space-y-2">
-
-                  <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-4 py-2 text-xs">
+                <div className="mt-3 space-y-2 sm:mt-4">
+                  <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-3 py-1.5 text-xs sm:px-4 sm:py-2">
                     Hello Guys
                   </div>
-
-                  <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-4 py-2 text-xs">
+                  <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-3 py-1.5 text-xs sm:px-4 sm:py-2">
                     Welcome to the channel
                   </div>
-
                   <div className="flex justify-end">
-                    <div className="w-fit rounded-2xl rounded-tr-sm bg-purple-600 px-4 py-2 text-xs text-white">
+                    <div className="w-fit rounded-2xl rounded-tr-sm bg-purple-600 px-3 py-1.5 text-xs text-white sm:px-4 sm:py-2">
                       Hello everyone
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>
 
+            {/* Text Content */}
             <div>
-              <h3 className="text-3xl font-bold leading-tight sm:text-4xl">
+              <h3 className="text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl">
                 Private Channels
                 <br className="hidden sm:block" />
                 Exclusive Access
@@ -124,19 +111,18 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* 2nd Row Cards */}
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-
+          {/* Card 2 */}
           <div className="flex flex-col justify-between rounded-3xl bg-[#FAF0F7] p-6 sm:p-10">
-
             <div>
-
-              <div className="flex items-center justify-center gap-2 sm:gap-3">
-
+              {/* Avatars */}
+              <div className="flex items-center justify-center gap-1.5 sm:gap-3 flex-wrap">
                 <div className="relative">
                   <img
                     src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
                     alt="User 1"
-                    className="h-10 w-10 rounded-full border-2 border-white object-cover sm:h-12 sm:w-12"
+                    className="h-9 w-9 rounded-full border-2 border-white object-cover sm:h-12 sm:w-12"
                   />
                   <span className="absolute -bottom-1 -right-1 text-xs">
                     🇬🇧
@@ -147,7 +133,7 @@ export default function Hero() {
                   <img
                     src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80"
                     alt="User 2"
-                    className="h-12 w-12 rounded-full border-2 border-white object-cover sm:h-14 sm:w-14"
+                    className="h-10 w-10 rounded-full border-2 border-white object-cover sm:h-14 sm:w-14"
                   />
                   <span className="absolute -bottom-1 -right-1 text-xs">
                     🇦🇺
@@ -158,9 +144,8 @@ export default function Hero() {
                   <img
                     src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80"
                     alt="Henry Williams"
-                    className="h-16 w-16 rounded-full border-4 border-white object-cover sm:h-20 sm:w-20"
+                    className="h-14 w-14 rounded-full border-4 border-white object-cover sm:h-20 sm:w-20"
                   />
-
                   <span className="absolute -bottom-1 right-1 rounded-full bg-white px-1 text-xs">
                     🇺🇸
                   </span>
@@ -170,7 +155,7 @@ export default function Hero() {
                   <img
                     src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
                     alt="User 3"
-                    className="h-12 w-12 rounded-full border-2 border-white object-cover sm:h-14 sm:w-14"
+                    className="h-10 w-10 rounded-full border-2 border-white object-cover sm:h-14 sm:w-14"
                   />
                   <span className="absolute -bottom-1 -right-1 text-xs">
                     🇮🇳
@@ -181,13 +166,12 @@ export default function Hero() {
                   <img
                     src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80"
                     alt="User 4"
-                    className="h-10 w-10 rounded-full border-2 border-white object-cover sm:h-12 sm:w-12"
+                    className="h-9 w-9 rounded-full border-2 border-white object-cover sm:h-12 sm:w-12"
                   />
                   <span className="absolute -bottom-1 -right-1 text-xs">
                     🇦🇺
                   </span>
                 </div>
-
               </div>
 
               <p className="mt-4 text-center text-lg font-bold sm:text-xl">

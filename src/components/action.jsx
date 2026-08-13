@@ -24,32 +24,32 @@ const features = [
 
 function Action() {
   return (
-    <section id="money" className="bg-white px-6 py-20 text-[#071b36]">
+    <section id="money" className="bg-white px-4 py-12 sm:px-6 md:py-20 text-[#071b36]">
       <div className="mx-auto max-w-6xl text-center">
-        <h1 className="text-4xl font-bold md:text-5xl">
+        <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
           Jiber in{" "}
-          <span className="rounded-xl bg-violet-500 px-4 py-2 text-white">
+          <span className="inline-block rounded-xl bg-violet-500 px-3.5 py-1 text-white">
             Action
           </span>
         </h1>
 
-        <h2 className="mt-4 text-4xl font-bold md:text-5xl">
+        <h2 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">
           Simple. Fast. Powerful
         </h2>
       </div>
 
-      <div className="mx-auto mt-12 grid max-w-6xl grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-4">
+      <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 sm:gap-10">
         {features.map((item, index) => (
-          <div key={index} className="text-center">
-            <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-3xl bg-[#f3f1ff]">
+          <div key={index} className="flex flex-col items-center text-center p-4 rounded-2xl transition hover:bg-gray-50/50">
+            <div className="flex h-28 w-28 sm:h-32 sm:w-32 items-center justify-center rounded-3xl bg-[#f3f1ff]">
               <img
                 src={item.image.src}
                 alt={item.title}
-                className="h-24 w-24 object-contain"
+                className="h-20 w-20 sm:h-24 sm:w-24 object-contain"
               />
             </div>
 
-            <h3 className="mt-6 whitespace-pre-line text-xl font-semibold leading-7">
+            <h3 className="mt-5 whitespace-pre-line text-lg font-semibold leading-snug sm:text-xl">
               {item.title}
             </h3>
           </div>
