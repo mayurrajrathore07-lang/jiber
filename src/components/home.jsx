@@ -1,3 +1,5 @@
+import homeImg from "../../public/images/home.png";
+
 export default function Home() {
   return (
     <section className="bg-white px-4 py-15 text-black md:px-8 flex ml-18 mr-10">
@@ -69,9 +71,10 @@ export default function Home() {
       </div>
 
       <div className="h-160 w-200 mb-30px">
-        <img src="/images/home.png" alt="Home preview" className="h-auto w-full" />
+        <img src={homeImg.src} alt="Home preview" className="h-auto w-full" />
       </div>
     </section>
   );
 }
+
 
