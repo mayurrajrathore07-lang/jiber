@@ -1,5 +1,5 @@
 'use client';
-import vector from "@/assets/vecotr.png"
+import vector from "../../public/images/Vector.png";
 import { useState } from "react";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -19,10 +19,10 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-[#f8f8f8]/95 backdrop-blur-md border-b border-gray-100">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
         <Link href="/" className="flex items-center gap-2">
-          <img className="w-10 h-10" src={vector.src} alt="logo" />
 
           <span className="text-2xl font-black text-purple-500 sm:text-3xl">
-            jiber
+            <img className="w-20 h-8" src={vector.src} alt="logo" />
+
           </span>
         </Link>
 
