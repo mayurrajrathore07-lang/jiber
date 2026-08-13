@@ -91,7 +91,7 @@ export default function Hero() {
                 <div className="mt-4 space-y-2">
 
                   <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-4 py-2 text-xs">
-                    Hello Guys 👋
+                    Hello Guys
                   </div>
 
                   <div className="w-fit rounded-2xl rounded-tl-sm bg-white px-4 py-2 text-xs">
