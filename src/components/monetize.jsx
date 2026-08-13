@@ -1,3 +1,5 @@
+'use client';
+import { motion } from "framer-motion";
 import monetize1 from "../../public/images/monetize1.png";
 import monetize2 from "../../public/images/monetize2.png";
 import monetize3 from "../../public/images/monetize3.png";
@@ -58,63 +60,75 @@ const sections = [
 
 function Monetize() {
   return (
-    <div id="monetization" className="bg-white text-black">
-      {sections.map((section, index) => (
-        <section key={section.label} className="py-12 md:py-20">
-          <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14">
-            {/* Image Box */}
-            <div
-              className={`flex aspect-square w-full max-w-[620px] mx-auto items-center justify-center rounded-3xl ${section.bgColor} ${
-                index % 2 !== 0 ? "lg:order-last" : "lg:order-first"
-              }`}
-            >
-              <img
-                src={section.image.src}
-                alt={section.label}
-                className="h-full w-full rounded-3xl object-contain p-4"
-              />
-            </div>
+    <div id="monetization" className="bg-white text-black overflow-hidden">
+      {sections.map((section, index) => {
+        const isImageOnLeft = index % 2 === 0;
 
-            {/* Text Content */}
-            <div
-              className={`max-w-xl mx-auto lg:mx-0 ${
-                index % 2 !== 0 ? "lg:order-first" : "lg:order-last"
-              }`}
-            >
-              <p className={`mb-3 text-lg font-bold sm:text-xl ${section.textColor}`}>
-                {section.label}
-              </p>
+        return (
+          <section key={section.label} className="py-12 md:py-20 overflow-hidden">
+            <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14">
 
-              <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
-                {section.title.split("\n").map((line) => (
-                  <span key={line} className="block">
-                    {line}
-                  </span>
-                ))}
-              </h2>
-
-              <p className="mb-6 text-base leading-relaxed text-gray-500 sm:text-lg">
-                {section.description}
-              </p>
-
-              <ul className="mb-8 space-y-3 text-gray-700 font-medium text-sm sm:text-base">
-                {section.points.map((point) => (
-                  <li key={point} className="flex items-start gap-2">
-                    <span className={section.textColor}>~</span>
-                    <span>{point}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <button
-                className={`rounded-full border-2 px-6 py-3 text-sm sm:text-base font-bold transition ${section.textColor} ${section.borderColor} ${section.hoverColor} hover:text-white shadow-sm`}
+              <motion.div
+                initial={{ opacity: 0, x: isImageOnLeft ? -80 : 80 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.7, ease: "easeOut" }}
+                className={`flex aspect-square w-full max-w-[620px] mx-auto items-center justify-center rounded-3xl ${section.bgColor} ${index % 2 !== 0 ? "lg:order-last" : "lg:order-first"
+                  }`}
               >
-                {section.button}
-              </button>
+                <img
+                  src={section.image.src}
+                  alt={section.label}
+                  className="h-full w-full rounded-3xl object-contain p-4"
+                />
+              </motion.div>
+
+
+              <motion.div
+                initial={{ opacity: 0, x: isImageOnLeft ? 80 : -80 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.7, ease: "easeOut" }}
+                className={`max-w-xl mx-auto lg:mx-0 ${index % 2 !== 0 ? "lg:order-first" : "lg:order-last"
+                  }`}
+              >
+                <p className={`mb-3 text-lg font-bold sm:text-xl ${section.textColor}`}>
+                  {section.label}
+                </p>
+
+                <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
+                  {section.title.split("\n").map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))}
+                </h2>
+
+                <p className="mb-6 text-base leading-relaxed text-gray-500 sm:text-lg">
+                  {section.description}
+                </p>
+
+                <ul className="mb-8 space-y-3 text-gray-700 font-medium text-sm sm:text-base">
+                  {section.points.map((point) => (
+                    <li key={point} className="flex items-start gap-2">
+                      <span className={section.textColor}>~</span>
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <motion.button
+                  whileHover={{ scale: 1.03 }}
+                  whileTap={{ scale: 0.97 }}
+                  className={`rounded-full border-2 px-6 py-3 text-sm sm:text-base font-bold transition ${section.textColor} ${section.borderColor} ${section.hoverColor} hover:text-white shadow-sm`}
+                >
+                  {section.button}
+                </motion.button>
+              </motion.div>
             </div>
-          </div>
-        </section>
-      ))}
+          </section>
+        );
+      })}
     </div>
   );
 }
