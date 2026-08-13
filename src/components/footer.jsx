@@ -1,4 +1,5 @@
 import { FaInstagram, FaGoogle, FaGithub, FaLinkedin } from 'react-icons/fa'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
           <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+          <Link href="/terms-and-conditions" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
           <a href="#">FAQ</a>
         </div>
 
