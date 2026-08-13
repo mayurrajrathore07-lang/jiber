@@ -21,7 +21,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap items-center gap-4 text-sm text-slate-600">
           <a href="#">Privacy Policy</a>
-          <Link href="/terms-and-conditions" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
+          <Link href="/t&C" className="hover:text-slate-800 transition-colors">Terms of Service</Link>
           <a href="#">FAQ</a>
         </div>
 
