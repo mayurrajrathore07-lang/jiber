@@ -18,12 +18,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-[#f8f8f8]/95 backdrop-blur-md border-b border-gray-100">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 sm:py-5">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2.5">
+          <img
+            className="h-8 w-auto sm:h-10 object-contain"
+            src={vector.src}
+            alt="Jiber Logo"
+          />
 
-          <span className="text-2xl font-black text-purple-500 sm:text-3xl">
-            <img className="w-20 h-8" src={vector.src} alt="logo" />
-
-          </span>
         </Link>
 
 
