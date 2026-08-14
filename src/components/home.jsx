@@ -1,8 +1,8 @@
 'use client';
 
 import homeImg from "../../public/images/home.png";
-import RotatingText from "./RotatingText";
-import BlurText from "./BlurText";
+import RotatingText from "./animation/RotatingText";
+import BlurText from "./animation/BlurText";
 
 
 export default function Home() {
