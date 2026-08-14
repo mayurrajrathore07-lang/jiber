@@ -8,11 +8,11 @@ export default function GetAccess() {
           <img
             src={iphone.src}
             alt="Jiber app preview"
-            className="max-h-[480px] sm:max-h-[550px] w-auto max-w-full rounded-2xl object-contain shadow-xl"
+            className="max-h-[480px] sm:max-h-[550px] w-auto max-w-full rounded-2xl object-contain shadow-xl bg-smoky-white"
           />
         </div>
 
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left group hover:bg-black transition-colors duration-300 rounded-xl p-6">
           <p className="inline-block rounded-full bg-[#dff7ef] px-3.5 py-1 text-xs font-semibold uppercase tracking-wider text-[#0d8d68]">
             Beta Creator
           </p>
