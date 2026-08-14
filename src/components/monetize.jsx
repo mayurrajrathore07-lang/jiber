@@ -60,7 +60,7 @@ const sections = [
 
 function Monetize() {
   return (
-    <div id="monetization" className="bg-white text-black overflow-hidden ">
+    <div id="monetization" className="bg-white text-black overflow-hidden  ">
       {sections.map((section, index) => {
         const isImageOnLeft = index % 2 === 0;
 
@@ -96,7 +96,7 @@ function Monetize() {
                   {section.label}
                 </p>
 
-                <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl transition-colors duration-300 text-black group-hover:text-white hover:text-white">
+                <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl transition-all duration-300 text-black group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-blue-500 group-hover:bg-clip-text group-hover:text-transparent hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-500 hover:bg-clip-text hover:text-transparent">
                   {section.title.split("\n").map((line) => (
                     <span key={line} className="block">
                       {line}

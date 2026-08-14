@@ -17,12 +17,15 @@ export default function GetAccess() {
             Beta Creator
           </p>
 
-          <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl bg:text-gradient-to-r from-purple-500 via-pink-500 to-orange-500 ">
-            <span className="text-[#030303]">Get Early Access</span>
+          <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
+            <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+              Get Early Access
+            </span>
             <br />
-            <span className="text-[#030303]">& Influence</span>
+            <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              & Influence
+            </span>
           </h2>
-
           <p className="mt-5 max-w-xl mx-auto lg:mx-0 text-base leading-relaxed text-gray-600 sm:text-lg">
             Join Jiber today to test early creator monetization features, claim your handle, and start moving money with zero platform cut.
           </p>
