@@ -13,25 +13,25 @@ export default function Box() {
       <img
         src={box1.src}
         alt="Chat icon"
-        className="absolute top-6 left-6 w-14 h-14 sm:w-20 sm:h-20 md:top-10 md:left-12 lg:top-12 lg:left-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105"
+        className="absolute top-6 left-6 w-14 h-14 sm:w-20 sm:h-20 md:top-10 md:left-12 lg:top-12 lg:left-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105 animate-bounce"
       />
 
       <img
         src={box2.src}
         alt="Money bag icon"
-        className="absolute top-6 right-6 w-14 h-14 sm:w-20 sm:h-20 md:top-10 md:right-12 lg:top-12 lg:right-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105"
+        className="absolute top-6 right-6 w-14 h-14 sm:w-20 sm:h-20 md:top-10 md:right-12 lg:top-12 lg:right-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105 animate-pulse"
       />
 
       <img
         src={box4.src}
         alt="Gift box icon"
-        className="absolute bottom-6 left-6 w-14 h-14 sm:w-20 sm:h-20 md:bottom-10 md:left-12 lg:bottom-12 lg:left-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105"
+        className="absolute bottom-6 left-6 w-14 h-14 sm:w-20 sm:h-20 md:bottom-10 md:left-12 lg:bottom-12 lg:left-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105 animate-pulse"
       />
 
       <img
         src={box3.src}
         alt="Video play icon"
-        className="absolute bottom-6 right-6 w-14 h-14 sm:w-20 sm:h-20 md:bottom-10 md:right-12 lg:bottom-12 lg:right-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105"
+        className="absolute bottom-6 right-6 w-14 h-14 sm:w-20 sm:h-20 md:bottom-10 md:right-12 lg:bottom-12 lg:right-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105 animate-bounce ease-in-out"
 
       />
 
