@@ -100,17 +100,17 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full rounded-full border border-gray-200 px-5 py-3.5 outline-none transition focus:border-purple-500"
+                className="w-full rounded-full border border-pink-400 px-5 py-3.5 outline-none transition focus:border-purple-500"
               />
 
               <input
                 type="email"
                 placeholder="Enter Email"
-                className="w-full rounded-full border border-gray-200 px-5 py-3.5 outline-none transition focus:border-purple-500"
+                className="w-full rounded-full border border-pink-400 px-5 py-3.5 outline-none transition focus:border-purple-500"
               />
             </div>
 
-            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-90">
+            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-70">
               Join Waitlist
             </button>
           </div>
