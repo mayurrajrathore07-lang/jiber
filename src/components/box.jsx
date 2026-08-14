@@ -57,7 +57,7 @@ export default function Box() {
             placeholder="Enter your email"
             className="w-full bg-transparent text-gray-800 placeholder:text-gray-400 outline-none text-sm sm:text-base pr-3"
           />
-          <button className="rounded-full bg-gradient-to-r from-[#c084fc] to-[#6366f1] hover:opacity-80 transition text-white font-medium px-6 py-3 sm:px-8 sm:py-3.5 text-sm sm:text-base shrink-0 shadow-md">
+          <button className="rounded-full bg-gradient-to-r from-[#c084fc] to-[#6366f1] hover:opacity-70 transition text-white font-medium px-6 py-3 sm:px-8 sm:py-3.5 text-sm sm:text-base shrink-0 shadow-md">
             Submit
           </button>
         </div>
