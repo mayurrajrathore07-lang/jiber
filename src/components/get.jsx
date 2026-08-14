@@ -17,7 +17,7 @@ export default function GetAccess() {
             Beta Creator
           </p>
 
-          <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
+          <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl text-gradient-to-r from-purple-500 via-pink-500 to-orange-500 ">
             <span className="text-[#030303]">Get Early Access</span>
             <br />
             <span className="text-[#030303]">& Influence</span>

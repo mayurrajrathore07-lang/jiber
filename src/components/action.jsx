@@ -28,9 +28,11 @@ function Action() {
       <div className="mx-auto max-w-6xl text-center">
         <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
           Jiber in{" "}
-          <span className="inline-block rounded-xl bg-violet-500 px-3.5 py-1 text-white">
+
+          <span className="inline-block rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 px-4 py-2 text-white">
             Action
           </span>
+
         </h1>
 
         <h2 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">

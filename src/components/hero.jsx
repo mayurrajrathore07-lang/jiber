@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
             More than a{" "}
-            <span className="inline-block rounded-2xl bg-[#EEECFF] px-4 py-2 text-[#635BFF]">
+            <span className="inline-block rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 px-4 py-2 text-white">
               Messaging app.
             </span>
           </h2>
@@ -20,12 +20,11 @@ export default function Hero() {
         </div>
 
 
-        {/* Card Section 1 */}
         <div className="rounded-3xl bg-[#F2EFFE] p-4 sm:p-6 md:p-10">
           <div className="grid items-center gap-8 lg:grid-cols-2">
-            {/* Visual Box */}
+
             <div className="relative flex h-[320px] sm:h-[350px] items-center justify-center overflow-hidden sm:overflow-visible">
-              {/* Channel list preview card */}
+
               <div className="absolute left-0 top-4 z-10 w-40 rounded-2xl bg-white p-2.5 shadow-lg sm:left-4 sm:w-48 sm:p-3">
                 <div className="flex items-center gap-2 rounded-xl bg-[#F4F1FE] p-2">
                   <div className="flex h-6 w-6 items-center justify-center rounded-lg bg-purple-100 text-xs text-purple-600">
@@ -62,7 +61,6 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Chat preview card */}
               <div className="absolute bottom-2 right-0 z-10 w-56 rounded-3xl bg-[#E8E3FE] p-4 shadow-lg sm:bottom-4 sm:right-4 sm:w-72 sm:p-5">
                 <div className="flex items-center justify-between border-b border-purple-200 pb-2.5 sm:pb-3">
                   <div className="flex items-center gap-2">
@@ -94,7 +92,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Text Content */}
             <div>
               <h3 className="text-2xl font-bold leading-tight sm:text-3xl lg:text-4xl">
                 Private Channels
@@ -111,12 +108,11 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* 2nd Row Cards */}
         <div className="mt-8 grid gap-8 lg:grid-cols-2">
-          {/* Card 2 */}
+
           <div className="flex flex-col justify-between rounded-3xl bg-[#FAF0F7] p-6 sm:p-10">
             <div>
-              {/* Avatars */}
+
               <div className="flex items-center justify-center gap-1.5 sm:gap-3 flex-wrap">
                 <div className="relative">
                   <img
