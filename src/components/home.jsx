@@ -1,7 +1,15 @@
+'use client';
+
 import homeImg from "../../public/images/home.png";
 import RotatingText from "./RotatingText";
+import BlurText from "./BlurText";
+
 
 export default function Home() {
+  const handleAnimationComplete = () => {
+    console.log('Animation completed!');
+  };
+
   return (
     <section className="bg-white px-4 py-12 text-black sm:px-6 lg:px-8 lg:py-16">
       <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2">
@@ -37,11 +45,25 @@ export default function Home() {
                 loop
               />
             </span>
-
-            <span className="mt-2 block">
-              Worldwide for $1. Keep 100% of What You Earn.
-            </span>
           </h1>
+
+          <div className="mt-4 mb-8 space-y-1">
+            <BlurText
+              text="Worldwide for $1. Keep"
+              delay={150}
+              animateBy="words"
+              direction="top"
+              className="text-3xl sm:text-4xl font-bold text-gray-900"
+            />
+            <BlurText
+              text="100% of What You Earn!"
+              delay={150}
+              animateBy="words"
+              direction="top"
+              onAnimationComplete={handleAnimationComplete}
+              className="text-3xl sm:text-4xl font-extrabold text-purple-600"
+            />
+          </div>
 
           <ul className="mt-6 space-y-3 text-base text-gray-700 sm:text-lg">
             <li className="flex items-start gap-2">
