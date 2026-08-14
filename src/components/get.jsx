@@ -26,6 +26,7 @@ export default function GetAccess() {
               & Influence
             </span>
           </h2>
+
           <p className="mt-5 max-w-xl mx-auto lg:mx-0 text-base leading-relaxed text-gray-600 sm:text-lg">
             Join Jiber today to test early creator monetization features, claim your handle, and start moving money with zero platform cut.
           </p>
