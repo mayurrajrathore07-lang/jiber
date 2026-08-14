@@ -25,7 +25,9 @@ const features = [
 function Action() {
   return (
     <section id="money" className="bg-white px-4 py-12 sm:px-6 md:py-20 text-[#071b36]">
+
       <div className="mx-auto max-w-6xl text-center">
+
         <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
           Jiber in{" "}
 
@@ -41,9 +43,13 @@ function Action() {
       </div>
 
       <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 sm:gap-10">
+
         {features.map((item, index) => (
+
           <div key={index} className="flex flex-col items-center text-center p-4 rounded-2xl transition hover:bg-gray-50/50">
+
             <div className="flex h-28 w-28 sm:h-32 sm:w-32 items-center justify-center rounded-3xl bg-[#f3f1ff]">
+
               <img
                 src={item.image.src}
                 alt={item.title}

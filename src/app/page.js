@@ -13,12 +13,12 @@ export default function Page() {
     <main className="bg-[#f7f7f8] text-black">
       <Navbar />
       <Home />
-      <Hero/>
+      <Hero />
       <Action />
       <Monetize />
       <GetAccess />
       <FAQ />
-      <Box/>
+      <Box />
       <Footer />
     </main>
   );
