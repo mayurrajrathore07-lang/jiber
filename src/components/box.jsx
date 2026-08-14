@@ -32,6 +32,7 @@ export default function Box() {
         src={box3.src}
         alt="Video play icon"
         className="absolute bottom-6 right-6 w-14 h-14 sm:w-20 sm:h-20 md:bottom-10 md:right-12 lg:bottom-12 lg:right-14 md:w-24 md:h-24 lg:w-28 lg:h-28 object-contain drop-shadow-xl pointer-events-none select-none transition-transform hover:scale-105"
+
       />
 
 
@@ -56,7 +57,7 @@ export default function Box() {
             placeholder="Enter your email"
             className="w-full bg-transparent text-gray-800 placeholder:text-gray-400 outline-none text-sm sm:text-base pr-3"
           />
-          <button className="rounded-full bg-gradient-to-r from-[#c084fc] to-[#6366f1] hover:opacity-400 transition text-white font-medium px-6 py-3 sm:px-8 sm:py-3.5 text-sm sm:text-base shrink-0 shadow-md">
+          <button className="rounded-full bg-gradient-to-r from-[#c084fc] to-[#6366f1] hover:opacity-80 transition text-white font-medium px-6 py-3 sm:px-8 sm:py-3.5 text-sm sm:text-base shrink-0 shadow-md">
             Submit
           </button>
         </div>
