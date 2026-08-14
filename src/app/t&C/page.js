@@ -62,7 +62,7 @@ export default function TermsAndConditions() {
                     <section>
                         <h2 className="text-2xl font-bold mb-4 text-black">Disclaimer</h2>
                         <p className="text-slate-700 leading-relaxed mb-4">
-                            Jiber provides software "as is" without warranties of any kind.
+                            Jiber provides software &quot;as is&quot; without warranties of any kind.
                         </p>
                         <p className="text-slate-700 leading-relaxed mb-4">
                             We do not guarantee transaction speed, security, or network uptime.

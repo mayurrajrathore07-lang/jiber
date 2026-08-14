@@ -1,3 +1,4 @@
+import vector from "../../public/images/Vector.png"
 import { FaInstagram, FaGoogle, FaGithub, FaLinkedin } from 'react-icons/fa'
 import Link from 'next/link'
 
@@ -5,12 +6,13 @@ export default function Footer() {
   return (
     <footer id="contact" className="border-t border-slate-200 bg-white py-8 text-slate-900">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-4 sm:px-6 md:flex-row md:gap-4">
-        <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-linear-to-br from-violet-500 to-pink-500 text-sm font-bold text-white">
-            j
-          </div>
-          <span className="text-xl font-bold">Jiber</span>
-        </div>
+        <Link href="/" className="flex items-center gap-2.5">
+          <img
+            className="h-8 w-auto sm:h-10 object-contain"
+            src={vector.src}
+            alt="Jiber Logo"
+          />
+        </Link>
 
         <div className="flex items-center gap-5 text-gray-700">
           <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
@@ -34,9 +36,9 @@ export default function Footer() {
           <Link href="/t&C" className="hover:text-slate-900 transition-colors">
             Terms of Service
           </Link>
-          <a href="/#faq" className="hover:text-slate-900 transition-colors">
+          <Link href="/#faq" className="hover:text-slate-900 transition-colors">
             FAQ
-          </a>
+          </Link>
         </div>
 
         <div className="text-sm text-slate-500">contact@jiber.app</div>

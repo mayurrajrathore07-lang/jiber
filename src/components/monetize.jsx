@@ -60,7 +60,7 @@ const sections = [
 
 function Monetize() {
   return (
-    <div id="monetization" className="bg-white text-black overflow-hidden">
+    <div id="monetization" className="bg-white text-black overflow-hidden ">
       {sections.map((section, index) => {
         const isImageOnLeft = index % 2 === 0;
 
