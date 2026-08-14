@@ -1,6 +1,6 @@
-import vector from "../../public/images/Vector.png"
-import { FaInstagram, FaGoogle, FaGithub, FaLinkedin } from 'react-icons/fa'
-import Link from 'next/link'
+import vector from "../../public/images/Vector.png";
+import { FaInstagram, FaGoogle, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -18,12 +18,15 @@ export default function Footer() {
           <a href="https://www.instagram.com/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
             <FaInstagram className="hover:text-pink-500 transition-colors" size={22} />
           </a>
+
           <a href="https://google.com" target="_blank" rel="noopener noreferrer" aria-label="Google">
             <FaGoogle className="hover:text-pink-500 transition-colors" size={22} />
           </a>
+
           <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <FaGithub className="hover:text-pink-500 transition-colors" size={22} />
           </a>
+
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin className="hover:text-pink-500 transition-colors" size={22} />
           </a>
@@ -33,15 +36,19 @@ export default function Footer() {
           <Link href="/privacy-policy" className="hover:text-slate-900 transition-colors">
             Privacy Policy
           </Link>
+
           <Link href="/t&C" className="hover:text-slate-900 transition-colors">
             Terms of Service
           </Link>
+
           <Link href="/#faq" className="hover:text-slate-900 transition-colors">
             FAQ
           </Link>
         </div>
 
-        <div className="text-lg text-black-800 font-bold">contact@jiber.app</div>
+        <div className="text-lg text-black-800 font-bold">
+          contact@jiber.app
+        </div>
       </div>
     </footer>
   );
