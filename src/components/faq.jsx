@@ -23,14 +23,7 @@ const faqs = [
     question: "Does Jiber hold my funds?",
     answer: "i don't know.",
   },
-  {
-    question: "Does Jiber hold my funds?",
-    answer: "i don't know.",
-  },
-  {
-    question: "Does Jiber hold my funds?",
-    answer: "i don't know.",
-  },
+
 ];
 
 export default function FAQ() {
@@ -63,8 +56,8 @@ export default function FAQ() {
 
                 <span
                   className={`flex shrink-0 items-center justify-center w-6 h-6 rounded-full border-2 text-sm font-bold transition-colors ${openIndex === index
-                      ? "border-indigo-500 text-indigo-500"
-                      : "border-slate-400 text-slate-500"
+                    ? "border-indigo-500 text-indigo-500"
+                    : "border-slate-400 text-slate-500"
                     }`}
                 >
                   {openIndex === index ? "−" : "+"}
