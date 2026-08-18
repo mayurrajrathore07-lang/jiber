@@ -56,11 +56,10 @@ export default function FAQ() {
                   </span>
 
                   <span
-                    className={`flex shrink-0 items-center justify-center w-7 h-7 rounded-full border text-base font-medium transition-colors ${
-                      isOpen
-                        ? "border-violet-600 bg-violet-600 text-white"
-                        : "border-slate-300 text-slate-500 group-hover:border-violet-600 group-hover:text-violet-600"
-                    }`}
+                    className={`flex shrink-0 items-center justify-center w-7 h-7 rounded-full border text-base font-medium transition-colors ${isOpen
+                      ? "border-violet-600 bg-violet-600 text-white"
+                      : "border-slate-300 text-slate-500 group-hover:border-violet-600 group-hover:text-violet-600"
+                      }`}
                   >
                     {isOpen ? "−" : "+"}
                   </span>
@@ -78,4 +77,4 @@ export default function FAQ() {
       </div>
     </section>
   );
-}
+}
