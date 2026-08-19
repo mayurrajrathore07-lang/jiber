@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="bg-[#0F1A2A] text-center text-white w-full py-4 px-6 flex items-center justify-center text-xs sm:text-sm font-normal">
+      <div className="bg-[#0F1A2A] text-center text-white w-full py-4 px-6 flex items-center justify-center text-xs sm:text-sm font-normal mt-40">
         Jiber is a non-custodial software platform. We do not provide financial, custodial, or money transfer services.
       </div>
     </footer>
