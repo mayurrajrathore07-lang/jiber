@@ -5,24 +5,34 @@ import { useState } from "react";
 const faqs = [
   {
     question: "Does Jiber hold my funds?",
-    answer: "No, Jiber is non-custodial. Your funds remain entirely under your control in your own wallet.",
+    answer: "Does Jiber hold your funds?.",
   },
   {
-    question: "How fast are transaction settlements?",
-    answer: "Transactions are processed instantly on-chain with real-time updates and minimal delay.",
+    question: "Is there a free trial available?",
+    answer: "Is there a free trial available?.",
+
+  },
+
+  {
+    question: "Can I change my plan later?",
+    answer: "Can I change my plan later?.",
   },
   {
-    question: "What security measures are in place?",
-    answer: "We use audited smart contracts, modern encryption, and secure wallet connections to protect your assets.",
+    question: "What is your cancellation policy??",
+    answer: "What is your cancellation policy?.",
   },
   {
-    question: "Are there any hidden transaction fees?",
-    answer: "No hidden fees. You only pay transparent network gas fees and standard minimal service rates.",
+    question: "Can other info be added to an invoice?",
+    answer: "Can other info be added to an invoice?",
   },
   {
-    question: "How can I contact customer support?",
-    answer: "Our team is available 24/7 via live chat and community channels to help with any questions.",
+    question: "How does billing work?",
+    answer: "How does billing work?",
   },
+  {
+    question: "How do I change my account email?",
+    answer: "How do I change my account email?"
+  }
 ];
 
 export default function FAQ() {
