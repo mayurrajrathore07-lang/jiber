@@ -31,7 +31,7 @@ function Action() {
         <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
           Jiber in{" "}
 
-          <span className="inline-block rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 px-4 py-2 text-white">
+          <span className="inline-block rounded-2xl  px-4 py-2 text-pink-500">
             Action
           </span>
 

@@ -18,11 +18,11 @@ export default function GetAccess() {
           </p>
 
           <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
-            <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
+            <span className="text-black">
               Get Early Access
             </span>
             <br />
-            <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            <span className="text-black-500">
               & Influence
             </span>
           </h2>
@@ -30,7 +30,7 @@ export default function GetAccess() {
           <p className="mt-5 max-w-xl mx-auto lg:mx-0 text-base leading-relaxed text-gray-600 sm:text-lg">
             Join us in shaping the future of content monetization! As a beta tester, you'll gain early access to our platform and features. Your feedback is crucial in crafting a top-notch tool for creators like you.          </p>
 
-          <button className="mt-6 rounded-full bg-linear-to-r from-violet-500 to-indigo-500 px-7 py-3 font-bold text-white shadow-md hover:opacity-95 transition">
+          <button className="mt-6 rounded-full px-7 py-3 font-bold text-[#d65cff] border-2 border-[#d65cff] shadow-md hover:opacity-95 transition">
             Join Early Access
           </button>
         </div>
