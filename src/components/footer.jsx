@@ -50,7 +50,7 @@ export default function Footer() {
           <a href="/#contact">contact@jiber.app</a>
         </div>
       </div>
-      <div className="bg:color-#0F1A2A text-center w-full mt-40 px-10">Jiber is a non-custodial software platform. We do not provide financial, custodial, or money transfer services.</div>
+      <div className="bg-[#0F1A2A] text-center h-15 text-white w-full mt-30 px-10">Jiber is a non-custodial software platform. We do not provide financial, custodial, or money transfer services.</div>
     </footer>
   );
 }
