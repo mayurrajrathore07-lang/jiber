@@ -10,7 +10,7 @@ import Footer from "@/components/footer";
 
 export default function Page() {
   return (
-    <main className="bg-[#f7f7f8] text-black min-h-screen flex flex-col justify-between">
+    <main className="bg-[#f7f7f8] text-black">
       <Navbar />
       <Home />
       <Hero />
