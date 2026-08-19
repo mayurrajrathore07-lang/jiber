@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="mx-auto mb-12 max-w-3xl text-center">
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl">
             More than a{" "}
-            <span className="inline-block rounded-2xl bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 px-4 py-2 text-white">
+            <span className="inline-block rounded-2xl bg-[#EEECFE] px-4 py-2 text-[#4F46E5]">
               Messaging app.
             </span>
           </h2>
