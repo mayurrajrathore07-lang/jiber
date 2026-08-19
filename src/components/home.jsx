@@ -65,7 +65,7 @@ export default function Home() {
             />
           </div>
 
-          <ul className="mt-6 space-y-3 text-base text-gray-700 sm:text-lg">
+          <ul className="mt-6 space-y-3 text-base text-gray-700 sm:text-lg font-plus-jakarta ">
             <li className="flex items-start gap-2">
               <span className="font-bold text-purple-600">•</span>
               <span>
