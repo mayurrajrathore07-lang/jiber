@@ -13,7 +13,7 @@ export default function GetAccess() {
         </div>
 
         <div className="text-center lg:text-left group">
-          <p className="inline-block rounded-full bg-[#dff7ef] px-3.5 py-1 text-s font-semibold uppercase tracking-wider text-[#0d8d68]">
+          <p className="inline-block rounded-full bg-[#dff7ef] px-3.5 py-1 text-s font-semibold uppercase tracking-wider text-[#0d8d68] font-heading">
             Beta Creator
           </p>
 

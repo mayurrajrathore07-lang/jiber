@@ -92,7 +92,7 @@ function Monetize() {
                 className={`max-w-xl mx-auto lg:mx-0 p-6 sm:p-8 rounded-3xl ${index % 2 !== 0 ? "lg:order-first" : "lgL:order-last"
                   }`}
               >
-                <p className={`mb-3 text-lg font-bold sm:text-xl ${section.textColor}`}>
+                <p className={`mb-3 text-lg font-bold sm:text-xl font-heading ${section.textColor}`}>
                   {section.label}
                 </p>
 

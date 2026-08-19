@@ -37,7 +37,7 @@ export default function Box() {
 
 
       <div className="relative z-10 mx-auto max-w-2xl px-2">
-        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl lg:text-[46px] leading-[1.25] font:['Bricolage Grotesque']">
+        <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl md:text-5xl lg:text-[46px] leading-[1.25] font-heading">
           Ready to Join the
           <br />
           Exclusive{" "}
