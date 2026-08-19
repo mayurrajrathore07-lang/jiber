@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
 
         <div className="text-lg text-black-800 font-bold hover:text-blue-600">
-          <Link href="/#contact"> contact@jiber.app</Link>
+          <a href="/#contact">contact@jiber.app</a>
         </div>
       </div>
     </footer>
