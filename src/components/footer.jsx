@@ -53,4 +53,4 @@ export default function Footer() {
       <div className="bg-[#0F1A2A] text-center h-15 text-white w-full mt-30 px-10">Jiber is a non-custodial software platform. We do not provide financial, custodial, or money transfer services.</div>
     </footer>
   );
-}
+}      
