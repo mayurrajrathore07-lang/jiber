@@ -3,6 +3,7 @@
 import homeImg from "../../public/images/home.png";
 import RotatingText from "./animation/RotatingText";
 import BlurText from "./animation/BlurText";
+import { FaCircleExclamation } from "react-icons/fa6";
 
 
 export default function Home() {
@@ -91,9 +92,10 @@ export default function Home() {
 
           <div className="mt-8 rounded-3xl border border-gray-100 bg-white p-6 text-gray-900 shadow-xl sm:p-8">
             <div className="flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">
+              <h2 className="text-2xl font-semibold font-bricolage">
                 Join the waitlist
               </h2>
+              <h2 className="text-xl font-medium font-heading flex items-center gap-2"><FaCircleExclamation />We don’t spam</h2>
             </div>
 
             <div className="mt-5 space-y-3">
