@@ -3,7 +3,7 @@
 import homeImg from "../../public/images/home.png";
 import RotatingText from "./animation/RotatingText";
 import BlurText from "./animation/BlurText";
-import { FaCircleExclamation } from "react-icons/fa6";
+import { FaCircleExclamation, FaBolt, FaDollarSign } from "react-icons/fa6";
 
 
 export default function Home() {
@@ -115,6 +115,10 @@ export default function Home() {
             <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-70 cursor:pointer">
               Join Waitlist
             </button>
+
+            <p className="mt-3.5 text-center text-sm font-semibold text-black flex items-center justify-center gap-1.5 font-heading">
+              <FaDollarSign className="text-black text-xs" /> Free Instant Transfer
+            </p>
           </div>
         </div>
 
