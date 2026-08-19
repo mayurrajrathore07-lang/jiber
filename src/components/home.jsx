@@ -47,7 +47,7 @@ export default function Home() {
             </span>
           </h1>
 
-          <div className="mt-4 mb-8 space-y-1">
+          <div className="mt-4 mb-8 space-y-1 font-heading">
             <BlurText
               text="Worldwide for $1. Keep"
               delay={150}

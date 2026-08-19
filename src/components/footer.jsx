@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer id="contact" className="border-t border-slate-200 bg-white py-8 text-gradient hover:bg-gradient-to-b from-purple-600 to-blue-600 mb-20">
+    <footer id="contact" className="border-t border-slate-200 bg-white py-8 text-gradient">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-4 sm:px-6 md:flex-row md:gap-4">
         <Link href="/" className="flex items-center gap-2.5">
           <img
@@ -46,8 +46,8 @@ export default function Footer() {
           </Link>
         </div>
 
-        <div className="text-lg text-black-800 font-bold">
-          contact@jiber.app
+        <div className="text-lg text-black-800 font-bold hover:text-blue-600">
+          <Link href="/#contact"> contact@jiber.app</Link>
         </div>
       </div>
     </footer>

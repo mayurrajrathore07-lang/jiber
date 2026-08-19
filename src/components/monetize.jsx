@@ -89,7 +89,7 @@ function Monetize() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.7, ease: "easeOut" }}
-                className={`max-w-xl mx-auto lg:mx-0 p-6 sm:p-8 rounded-3xl transition-all duration-300 hover:bg-black group-hover:bg-black ${index % 2 !== 0 ? "lg:order-first" : "lg:order-last"
+                className={`max-w-xl mx-auto lg:mx-0 p-6 sm:p-8 rounded-3xl transition-all duration-300 hover:bg-white group-hover:bg-black ${index % 2 !== 0 ? "lg:order-first" : "lg:order-last"
                   }`}
               >
                 <p className={`mb-3 text-lg font-bold sm:text-xl ${section.textColor}`}>
