@@ -110,7 +110,7 @@ export default function Home() {
               />
             </div>
 
-            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-70">
+            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-70 cursor:pointer">
               Join Waitlist
             </button>
           </div>

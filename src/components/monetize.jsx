@@ -65,7 +65,7 @@ function Monetize() {
         const isImageOnLeft = index % 2 === 0;
 
         return (
-          <section key={section.label} className="group py-12 md:py-20 overflow-hidden">
+          <section key={section.label} className="py-12 md:py-20 overflow-hidden">
             <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 sm:px-6 lg:grid-cols-2 lg:gap-14">
 
               <motion.div
@@ -89,14 +89,14 @@ function Monetize() {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
                 transition={{ duration: 0.7, ease: "easeOut" }}
-                className={`max-w-xl mx-auto lg:mx-0 p-6 sm:p-8 rounded-3xl transition-all duration-300 hover:bg-white group-hover:bg-black ${index % 2 !== 0 ? "lg:order-first" : "lg:order-last"
+                className={`max-w-xl mx-auto lg:mx-0 p-6 sm:p-8 rounded-3xl ${index % 2 !== 0 ? "lg:order-first" : "lgL:order-last"
                   }`}
               >
                 <p className={`mb-3 text-lg font-bold sm:text-xl ${section.textColor}`}>
                   {section.label}
                 </p>
 
-                <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl transition-all duration-300 text-black group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-blue-500 group-hover:bg-clip-text group-hover:text-transparent hover:bg-gradient-to-r hover:from-pink-500 hover:to-blue-500 hover:bg-clip-text hover:text-transparent">
+                <h2 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl text-black">
                   {section.title.split("\n").map((line) => (
                     <span key={line} className="block">
                       {line}
@@ -104,11 +104,11 @@ function Monetize() {
                   ))}
                 </h2>
 
-                <p className="mb-6 text-base leading-relaxed text-gray-500 group-hover:text-gray-300 hover:text-gray-300 sm:text-lg transition-colors duration-300">
+                <p className="mb-6 text-base leading-relaxed text-gray-500 sm:text-lg">
                   {section.description}
                 </p>
 
-                <ul className="mb-8 space-y-3 text-gray-700 group-hover:text-gray-200 hover:text-gray-200 font-medium text-sm sm:text-base transition-colors duration-300">
+                <ul className="mb-8 space-y-3 text-gray-700 font-medium text-sm sm:text-base">
                   {section.points.map((point) => (
                     <li key={point} className="flex items-start gap-2">
                       <span className={section.textColor}>~</span>
