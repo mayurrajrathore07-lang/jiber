@@ -13,7 +13,7 @@ const sections = [
       "Jiber is built for you. No more 5–30% platform cuts, opaque payment structures, or frustrating fees. Just a simple, transparent way to earn from your community.",
     points: [
       "Subscriptions, tips, gifts, and pay-per-view.",
-      "Run sponsored experiences — fans fund your tips, adventures, and lifestyle.",
+      "Run sponsored experiences fans fund .",
       "Keep 100% of your earnings.",
     ],
     button: "Join Waitlist as Creator",
