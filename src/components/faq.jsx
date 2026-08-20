@@ -45,7 +45,7 @@ export default function FAQ() {
   return (
     <section id="faq" className="w-full bg-white py-14 px-4 sm:px-6 lg:py-20">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-center text-3xl font-bold text-slate-900 sm:text-4xl mb-10">
+        <h2 className="text-center text-3xl font-bold text-slate-900 sm:text-4xl mb-10 ">
           Frequently Asked{" "}
           <span className="text-violet-600 bg-violet-50 px-2.5 py-1 rounded-md">
             Questions

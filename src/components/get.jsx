@@ -30,8 +30,10 @@ export default function GetAccess() {
           <p className="mt-5 max-w-xl mx-auto lg:mx-0 text-base leading-relaxed text-gray-600 sm:text-lg">
             Join us in shaping the future of content monetization! As a beta tester, you'll gain early access to our platform and features. Your feedback is crucial in crafting a top-notch tool for creators like you.          </p>
 
-          <button className="mt-6 rounded-full px-7 py-3 font-bold text-[#d65cff] border-2 border-[#d65cff] shadow-md hover:opacity-95 transition">
-            Join Early Access
+          <button className="mt-6 inline-block rounded-full  shadow-md hover:opacity-95 transition">
+            <span className="block rounded-full bg-white px-7 py-3 font-bold bg-gradient-to-r from-[#E68FFE] to-[#4136FF] bg-clip-text text-transparent">
+              Join Early Access
+            </span>
           </button>
         </div>
       </div>
