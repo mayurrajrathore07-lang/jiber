@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,98120,t=>{t.q("/jiber/_next/static/media/Vector.36u4jqdw9_-a7.png")}]);
