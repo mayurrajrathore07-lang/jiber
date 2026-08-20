@@ -5,19 +5,19 @@ import action4 from "../../public/images/action4.png";
 
 const features = [
   {
-    image: action1,
+    image: action4,
     title: "Settle Up\nwith Friends",
   },
   {
-    image: action2,
+    image: action1,
     title: "Support Your Favorite\nCreators",
   },
   {
-    image: action3,
+    image: action2,
     title: "Unlock New Revenue\nStreams",
   },
   {
-    image: action4,
+    image: action3,
     title: "Spend Your Earnings\nAnywhere",
   },
 ];
@@ -31,7 +31,7 @@ function Action() {
         <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
           Jiber in{" "}
 
-          <span className="inline-block rounded-2xl  px-4 py-2 text-pink-500">
+          <span className="inline-block rounded-2xl  px-3 py-2 text-pink-500">
             Action
           </span>
 
