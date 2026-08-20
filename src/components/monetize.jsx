@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import monetize1 from "../../public/images/monetize1.png";
 import monetize2 from "../../public/images/monetize2.png";
 import monetize3 from "../../public/images/monetize3.png";
+import Frame from "../../public/images/Frame.png";
 
 const sections = [
   {
@@ -111,7 +112,7 @@ function Monetize() {
                 <ul className="mb-8 space-y-3 text-gray-700 font-medium text-sm sm:text-base">
                   {section.points.map((point) => (
                     <li key={point} className="flex items-start gap-2">
-                      <span className={section.textColor}>~</span>
+                      <span className={section.textColor}><img src={Frame.src} alt="~" /></span>
                       <span>{point}</span>
                     </li>
                   ))}
