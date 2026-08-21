@@ -1,9 +1,11 @@
 'use client';
 
 import homeImg from "../../public/images/home.png";
+import dollarIcon from "../../public/images/dollar_icon.jpg";
+import solanaIcon from "../../public/images/solana_icon.jpg";
 import RotatingText from "./animation/RotatingText";
 import BlurText from "./animation/BlurText";
-import { FaCircleExclamation, FaBolt, FaDollarSign } from "react-icons/fa6";
+import { FaCircleExclamation } from "react-icons/fa6";
 
 
 export default function Home() {
@@ -112,13 +114,20 @@ export default function Home() {
               />
             </div>
 
-            <button className="mt-5 w-full rounded-full bg-linear-to-r from-purple-400 to-blue-600 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-70 cursor:pointer">
+            <button className="mt-5 w-full rounded-full bg-gradient-to-r from-purple-500 to-pink-500 py-3.5 text-lg font-semibold text-white shadow-md transition hover:opacity-80 cursor-pointer">
               Join Waitlist
             </button>
 
-            <p className="mt-3.5 text-center text-sm font-semibold text-black flex items-center justify-center gap-1.5 font-heading">
-              <FaDollarSign className="text-black text-xs" /> Free Instant Transfer
-            </p>
+            <div className="mt-3.5 flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <img src={solanaIcon.src} alt="Solana" className="h-7 w-7 rounded-full object-cover" />
+                <img src={dollarIcon.src} alt="$1" className="h-7 w-7 rounded-full object-cover" />
+              </div>
+              <p className="text-sm font-semibold text-black flex items-center gap-1.5 font-heading">
+                <img src={dollarIcon.src} alt="$1" className="h-5 w-5 rounded-full object-cover" />
+                Fee Instant Transfer
+              </p>
+            </div>
           </div>
         </div>
 
