@@ -29,7 +29,7 @@ function Action() {
       <div className="mx-auto max-w-6xl text-center">
 
         <h1 className="text-3xl font-bold sm:text-4xl md:text-5xl">
-          Jiber in{" "}
+          Jiber in {" "}
 
           <span className="inline-block rounded-2xl  px-3 py-2 text-pink-500">
             Action

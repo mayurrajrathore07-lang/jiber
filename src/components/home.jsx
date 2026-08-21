@@ -19,7 +19,7 @@ export default function Home() {
           <h1 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
 
             <span className="flex flex-wrap items-center gap-2.5 sm:gap-3">
-              <span className="text-gray-900">Chat +</span>
+              <span className="text-gray-900 text-5xl">Chat +</span>
 
               <RotatingText
                 texts={[
@@ -54,7 +54,7 @@ export default function Home() {
               delay={150}
               animateBy="words"
               direction="top"
-              className="text-3xl sm:text-4xl font-bold text-gray-900"
+              className="text-5xl sm:text-5xl font-bold text-gray-900"
             />
             <BlurText
               text="100% of What You Earn!"
@@ -62,7 +62,7 @@ export default function Home() {
               animateBy="words"
               direction="top"
               onAnimationComplete={handleAnimationComplete}
-              className="text-3xl sm:text-4xl font-extrabold text-purple-600"
+              className="text-5xl sm:text-5xl font-extrabold text-purple-600"
             />
           </div>
 
