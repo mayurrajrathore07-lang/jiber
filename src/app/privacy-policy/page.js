@@ -18,22 +18,19 @@ export default function PrivacyPolicy() {
                     <section>
                         <h2 className="text-2xl font-bold mb-4 text-black">Introduction</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            Jiber Labs Ltd. is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website or use our application.
-                        </p>
+                            lorem                        </p>
                     </section>
 
                     <section>
                         <h2 className="text-2xl font-bold mb-4 text-black">Information We Collect</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            We may collect personal information such as email address, account preferences, and transactional metadata necessary to provide our services. We do not store private keys or sensitive credentials.
-                        </p>
+                            lorem                        </p>
                     </section>
 
                     <section>
                         <h2 className="text-2xl font-bold mb-4 text-black">How We Use Your Information</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            Your information is used strictly to deliver, improve, and secure our services, communicate updates, and ensure compliance with applicable legal regulations.
-                        </p>
+                            lorem                        </p>
                     </section>
                 </div>
             </div>
