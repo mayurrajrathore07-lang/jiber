@@ -32,7 +32,11 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} ${bricolageGrotesque.variable} ${plusJakartaSans.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="min-h-full flex flex-col font-sans bg-[#f7f7f8]">
+        <div className="mx-auto w-full max-w-[1440px] px-3 sm:px-6 lg:px-10 xl:px-14">
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
